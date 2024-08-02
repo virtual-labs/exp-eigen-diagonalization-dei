@@ -1,36 +1,79 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+   {
+      "question": "Consider the vector space $M_{2\\times2}$ over $\\mathbb{R}$. Let $A=\\begin{bmatrix} 2 & 1 \\\\ 0 & 2 \\end{bmatrix}$. Then the characteristic polynomial and eigenvalues of $A$ are",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "$(\\lambda + 2)^2$ and $2$ only",
+        "b": "$(\\lambda + 2)$ and $1$ only",
+        "c": "$(\\lambda - 2)^2$ and $2$ only",
+        "d": "$(2 - \\lambda)^2$ and $-2$ only"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the vector space $M_{3\\times3}$ over $\\mathbb{R}$. Let $A=\\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & -1 \\\\ 0 & -1 & -1 \\end{bmatrix}$. Then the eigenvalues of $A$ are",
+      "answers": {
+        "a": "1 only",
+        "b": "-1, 1 and 1",
+        "c": "1, -1 and 0",
+        "d": "0, 1 and 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Let $A$ be a $2\\times2$ real matrix. Then $A$ has ",
+      "answers": {
+        "a": "2 distinct eigenvalues",
+        "b": "1 eigenvalue only",
+        "c": "No eigenvalue",
+        "d": "None of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the vector space $M_{2\\times2}$ over $\\mathbb{R}$. Let $A$ be matrix of order $2\\times2$ which have eigenvalues $\\alpha$ and $\\mu$, such that $\\alpha<\\mu$. Then",
+      "answers": {
+        "a": "$E_{\\alpha} \\cap E_{\\mu} = \\varphi$",
+        "b": "$E_{\\alpha} \\subseteq E_{\\mu}$",
+        "c": "$x \\notin E_{\\alpha} \\cap E_{\\mu}$, if $x \\neq 0$",
+        "d": "None of the above"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the vector space $M_{2\\times2}$ over $\\mathbb{R}$. Let $A=\\begin{bmatrix} -1 & 0 \\\\ 2 & 0 \\end{bmatrix}$. Then find the eigenvectors of $A$ w.r.t. the eigenvalue $0$.",
+      "answers": {
+        "a": "$(-x, 2x)$, where $x \\in \\mathbb{R} \\setminus \\{0\\}$",
+        "b": "$(0, x)$, where $x \\in \\mathbb{R}$",
+        "c": "$(-x, 0)$, where $x \\in \\mathbb{R}$",
+        "d": "None of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the vector space $M_{2\\times2}$ over $\\mathbb{R}$. Let $A=\\begin{bmatrix} -1 & 0 \\\\ 2 & 0 \\end{bmatrix}$. Then the eigen space of $A$ w.r.t. the eigenvalue $-1$.",
+      "answers": {
+        "a": "{$(1, -2)x$: where $x \\in \\mathbb{R}$}",
+        "b": "{$(0, x)$: where $x \\in \\mathbb{R} \\setminus \\{0\\}$}",
+        "c": "{$(1, 0)x$: where $x \\in \\mathbb{R}$}",
+        "d": "$\\mathbb{R}^2$"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Let $1$ and $2$ be eigenvalues of a matrix $A$. Let $x$ be an eigenvector corresponding to the eigenvalue $1$ and $y$ be an eigenvector corresponding to the eigenvalue $2$. Then",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "$3$ is an eigenvalue and $x+y$ is an eigenvector corresponding to the eigenvalue $3$",
+        "b": "$x+y$ is an eigenvector corresponding to both the eigenvalues $1$ and $2$",
+        "c": "$2x$ is an eigenvector corresponding to the eigenvalue $1$ and $y+2$ is not an eigenvector corresponding to the eigenvalue $2$",
+        "d": "$2x$ is not an eigenvector corresponding to the eigenvalue $1$ and $y+2$ is an eigenvector corresponding to the eigenvalue $2$"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
