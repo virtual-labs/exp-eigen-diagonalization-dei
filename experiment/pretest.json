@@ -2,38 +2,73 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Find the determinant of the matrix $A - 2I$, where $A= \\begin{bmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 1 \\\\ 2 & 0 & 1 \\end{bmatrix}$ and $I$ is the identity matrix of order $3 \\times 3$.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "5",
+        "b": "3",
+        "c": "-5",
+        "d": "8"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Let $x^2 - x - 2 = 0$. Then x equals",
+      "answers": {
+        "a": "1, 2",
+        "b": "-1, 2",
+        "c": "1, -2",
+        "d": "-1, -2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Let $A = \\begin{bmatrix} 2 & 0 \\\\ 1 & 1 \\end{bmatrix}$ and $|A - aI| = 0$. Then a equals",
+      "answers": {
+        "a": "2, 1",
+        "b": "2, -1",
+        "c": "-2, 1",
+        "d": "-1, 1"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Find $(x, y) \\in \\mathbb{R}^2$ such that $2x + 0y = 0$.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "$(0, y); y \\in \\mathbb{R}$",
+        "b": "$(0, x + y); x, y \\in \\mathbb{R}$",
+        "c": "$(x, y); x, y \\in \\mathbb{R}$",
+        "d": "$(x, 0); x \\in \\mathbb{R}$"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Let $A = \\begin{bmatrix} 1 & 0 \\\\ 1 & 2 \\end{bmatrix}$. Then which of the following is a solution of $AX = 2X$.",
+      "answers": {
+        "a": "$X = \\begin{bmatrix} 1 \\\\ 2 \\end{bmatrix}$",
+        "b": "$X = \\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}$",
+        "c": "$X = \\begin{bmatrix} 2 \\\\ -1 \\end{bmatrix}$",
+        "d": "$X = \\begin{bmatrix} 3 \\\\ 0 \\end{bmatrix}$"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Let $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$ be a linear transformation defined as $T(x, y) = (x, 0)$, where $x, y \\in \\mathbb{R}$. Then",
+      "answers": {
+        "a": "$(T + 2I)(x, y) = (x + 2, 0)$",
+        "b": "$(T + 2I)(x, y) = (3x, 2y)$",
+        "c": "$(T + 2I)(x, 2y) = (x - 2, 2y)$",
+        "d": "$(T + 2I)(3x, 2y) = (0, y + 2)$"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
 }
+  ]
+}
+
