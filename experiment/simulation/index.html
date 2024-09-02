@@ -1,13 +1,95 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
+	<link rel="stylesheet" href="css/style2.css">
+    <script src="./js/script.js"></script>
+<style>
+    #lambdax{
+    width:35rem;
+}
+#lambdaxt{
+    width:35rem;
+}
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+.subbtn{
+        height:auto;
+        width:auto;
+        background-color:#81cdc6;
+        font-size: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        border: 1px solid teal;
+        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+        cursor: pointer;
+    }
+    .subbtn1{
+        height:auto;
+        width:auto;
+        background-color:#12ff69;
+        font-size: 1.8rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        border: 1px solid teal;
+        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+    }
+    .subcont, .evevdiv{
+        display: flex;
+         align-items: center;
+    }
+</style>
+<body>
+	<h2 class="pagehead">Eigenvalue and Eigenvector of Linear Transformation T:R<sup>2</sup>&rarr;R<sup>2</sup></h2>
+	<div class="container">
+
+        
+        <button class="subbtn" id="mulx"  onclick="mulX()">Multiples of x&isin;R<sup>2</sup></button><br>
+        <img id="multX" src="images/multX111.png"><br>
+
+        <button class="subbtn" id="tx"  onclick="txfun()">T(x) &isin;R<sup>2</sup></button><br>
+        <img id="tximg" src="images/tx1111.png" style="width: 89vh; height: auto;"><br>
+		
+        <!-- <ul id="uldef" style="display: none;">
+            <li>T(x)=&lambda;x; x &ne; 0</li>
+            <li>x is eigen vector, &lambda; is eigen value</li>
+           <img id="map" src="images/exp7img.PNG" alt="eigen_Values">
+        </ul> -->
+
+		
+		
+        <button class="subbtn" id="infrbtn"  onclick="infren()">Combined View</button><br>
+        <img id="infr" src="images/infr11.png" style="width: 89vh; height: auto;"><br>
+		
+		
+        <div class="evevdiv">
+        <button class="subbtn"  onclick="eveval()"> Visualization (Eigenvalue and Eigenvector)</button>
+        <p id="evevtext1" style="margin-left: 9px;"></p>
+    </div>
+		<img id="evev" src="images/tx11.png" style="width: 89vh; height: auto;">
+        <p id="evevtext"></p>
+		<!-- 
+		<h3>Example:</h3>
+		<p>T:R<sup>2</sup> &rarr; R<sup>2</sup></p>
+		<p>T(x, y) = (y, x)</p>
+		<p><strong>Matrix w.r.t. the standard bases: </strong> \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}</p> 
+		<p><strong>Charcteristics Equation: </strong>&lambda;<sup>2</sup> - 1 = 0</p>
+		<p><strong>Eigen Values: </strong> 1, -1</p>
+		<p><strong>Eigen Vectors: </strong>Corresponding to 1: (x, x), x &ne; 0, x &isin; R<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; Corresponding to -1: (-x, x), x &ne; 0, x &isin; R</p> 
+		<p><strong>Visualization: </strong>Enter the values of x and y to visualize eigen vectors<br>
+		x:<input type="number" id="x1"> y:<input type="number" id="y1">
+		<input type="submit" value="Submit" onclick="exmp1();">
+		<p id="exmp1res"></p>
+		<canvas id="my-canvas" width="250" height="250"></canvas>
+		 <img id="exmp1" src="images/example1.png"> -->
+
+		
+		
+	</div>
+<p style="float: center; align-content:right;">
+<a href="eVeceValMatrix.html" class="next" >Next &raquo;</a></p>
+
+
 </body>
+
+
+
+
 </html>
