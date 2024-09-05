@@ -1,17 +1,28 @@
 Matrices considered in this experiment have real entries. An n×1 matrix is called a column vector. Its transpose is a 1×n matrix called a row vector and it is also an element of R<sup>n</sup>. These are used interchangeably as and when needed.
 #### 1. Characteristic polynomial and characteristic equation of a matrix:
-The characteristic polynomial of a matrix A of order n×n is defined as |A-λI|, where λR, I is the identity matrix and |A-λI| denotes the determinant of (A-λI). Clearly, degree of the characteristic polynomial is n.	 Characteristic polynomial of A is denoted by f(λ). The equation f(λ)=0, i.e. |A-λI|=0 is called the characteristic equation.
-2. Eigenvalues and eigenvectors of a matrix: 
-Let A be a matrix of order n×n. Then λR is called an eigenvalue of A, if there exists a column vector i.e. an n×1matrix X≠0 such that AX=λX and X is called an eigenvector corresponding to the eigenvalue λ.
+The characteristic polynomial of a matrix A of order n×n is defined as |A-λI|, where λ&isin;R, I is the identity matrix and |A-λI| denotes the determinant of (A-λI). Clearly, degree of the characteristic polynomial is n. Characteristic polynomial of A is denoted by f(λ). The equation f(λ)=0, i.e. |A-λI|=0 is called the characteristic equation.
 
 #### 2. Eigenvalues and eigenvectors of a matrix: 
 Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if there exists a column vector i.e. an n×1matrix X≠0 such that AX=λX and X is called an eigenvector corresponding to the eigenvalue λ.
 
 #### 3. Examples:
-Let A=. To find the eigenvalues of A, consider the characteristic equation |A-λI|=0, i.e. 
-|-|=0, i.e. ||=0. This gives (1-λ)(3-λ)-8=0, which implies λ=5 and -1. Thus the eigenvalues of A are 1 and 3.
-To find eigenvectors of A for λ=5, consider (A-5.I)X=0. This gives = . Thus -4x+8y=0 and x-2y=0 which implies that x=2y. So, the eigenvectors corresponding to λ=5 are (2y, y), where 0≠yR.
-       To find eigenvectors of A for λ=-1, consider (A-(-1).I)X=0. This gives = . Thus-2x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y), where 0≠yR.
+
+$$
+\begin{aligned}
+\text{i.) Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}. & \\
+\text{To find the eigenvalues of } A, \text{ consider the characteristic equation } |A - \lambda I| = 0, \text{ i.e.,}
+\left| \begin{pmatrix} 1 & 8 \\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\ 0 & \lambda \end{pmatrix} \right| = 0. \\
+\text{This gives } (1 - \lambda)(3 - \lambda) - 8 = 0, \text{ which implies } \lambda = 5 \text{ and } -1.
+\text{ Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.\\
+\text{To find eigenvectors of } A  \text{ for  } λ=5, \text{ consider } (A-5.I)X=0.
+\text{ This gives} = \begin{pmatrix} -4 & 8 \\\ 1 & -2 \end{pmatrix}\begin{matrix} x \\\ y \end{matrix} = \begin{matrix} 0 \\\ 0 \end{matrix}.\\
+\text{Thus 4x+8y=0 and x-2y=0 which implies that x=2y. So, the eigenvectors corresponding to λ=5 are (2y, y), where 0≠y&isin;R.}\\
+\text{To find eigenvectors of } A  \text{ for  } λ=-1, \text{ consider } (A-(-1).I)X=0.
+\text{ This gives} = \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{matrix} x \\\ y \end{matrix} = \begin{matrix} 0 \\\ 0 \end{matrix}.\\
+\text{Thus 2x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y), where 0≠y&isin;R.}
+\end{aligned}
+$$
+
 
 #### 4. Eigenvalues and eigenvectors of a linear transformation: 
 Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then λR is called an eigenvalue of, T if there exists xV such that x≠0 and T(x)=λx. Such an x is called an eigenvector corresponding to the eigenvalue λ.
