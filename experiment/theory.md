@@ -8,7 +8,6 @@ Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if
 #### 3. Examples:
 
 $$
-\begin{aligned}
 \text{i.) Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}. & \\
 \text{To find the eigenvalues of } A, \text{ consider the characteristic equation } |A - \lambda I| = 0, \text{ i.e.,}
 \left| \begin{pmatrix} 1 & 8 \\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\ 0 & \lambda \end{pmatrix} \right| = 0. \\
@@ -20,8 +19,19 @@ $$
 \text{To find eigenvectors of } A  \text{ for  } λ=-1, \text{ consider } (A-(-1).I)X=0.
 \text{ This gives} = \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{matrix} x \\\ y \end{matrix} = \begin{matrix} 0 \\\ 0 \end{matrix}.\\
 \text{Thus 2x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y), where 0≠y&isin;R.}
-\end{aligned}
 $$
+
+ $$\small \text{Let A= $\begin{pmatrix} 1a & 1b \\\ 2a & 2b\end{pmatrix}$. To find the eigenvalues of A, consider the characteristic equation |A-λI|=0, i.e. }
+\mid
+\begin{pmatrix}
+1 & 8\\
+1 & 3
+\end{pmatrix}-\begin{pmatrix}
+λ & 0\\
+0 & λ
+\end{pmatrix}
+\mid = 0. \\\small \text{ This gives (1-λ)(3-λ)-8=0, which implies λ=5 and -1. Thus the eigenvalues of A are 1 and 3.}$$
+
 
 
 #### 4. Eigenvalues and eigenvectors of a linear transformation: 
