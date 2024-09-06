@@ -8,16 +8,16 @@ Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if
 #### 3. Examples:
 
 $$
-\text{i.) Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}.  \\
+\text{i.) Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}.
 \text{To find the eigenvalues of } A, \text{ consider the characteristic equation } |A - \lambda I| = 0, \text{ i.e.,}
-\left| \begin{pmatrix} 1 & 8 \\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\ 0 & \lambda \end{pmatrix} \right| = 0. \\
+\left| \begin{pmatrix} 1 & 8 \\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\ 0 & \lambda \end{pmatrix} \right| = 0.
 \text{This gives } (1 - \lambda)(3 - \lambda) - 8 = 0, \text{ which implies } \lambda = 5 \text{ and } -1.
-\text{ Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.\\
+\text{ Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.
 \text{To find eigenvectors of } A  \text{ for  } λ=5, \text{ consider } (A-5.I)X=0.
-\text{ This gives} = \begin{pmatrix} -4 & 8 \\\ 1 & -2 \end{pmatrix}\begin{matrix} x \\\ y \end{matrix} = \begin{matrix} 0 \\\ 0 \end{matrix}.\\
-\text{Thus 4x+8y=0 and x-2y=0 which implies that x=2y. So, the eigenvectors corresponding to λ=5 are (2y, y), where 0≠y&isin;R.}\\
+\text{ This gives} = \begin{pmatrix} -4 & 8 \\\ 1 & -2 \end{pmatrix}\begin{matrix} x \\\ y \end{matrix} = \begin{matrix} 0 \\\ 0 \end{matrix}.
+\text{Thus 4x+8y=0 and x-2y=0 which implies that x=2y. So, the eigenvectors corresponding to λ=5 are (2y, y), where 0≠y&isin;R.}
 \text{To find eigenvectors of } A  \text{ for  } λ=-1, \text{ consider } (A-(-1).I)X=0.
-\text{ This gives} = \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{matrix} x \\\ y \end{matrix} = \begin{matrix} 0 \\\ 0 \end{matrix}.\\
+\text{ This gives} = \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{matrix} x \\\ y \end{matrix} = \begin{matrix} 0 \\\ 0 \end{matrix}.
 \text{Thus 2x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y), where 0≠y&isin;R.}
 $$
 
