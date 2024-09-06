@@ -23,6 +23,18 @@ $$
 \end{aligned}
 $$
 
+ $$\small \text{Let A= $\begin{pmatrix} 1a & 1b \\\ 2a & 2b\end{pmatrix}$. To find the eigenvalues of A, consider the characteristic equation |A-λI|=0, i.e. }
+\mid
+\begin{pmatrix}
+1 & 8\\
+1 & 3
+\end{pmatrix}-\begin{pmatrix}
+λ & 0\\
+0 & λ
+\end{pmatrix}
+\mid = 0. \\\small \text{ This gives (1-λ)(3-λ)-8=0, which implies λ=5 and -1. Thus the eigenvalues of A are 1 and 3.}$$
+
+
 
 #### 4. Eigenvalues and eigenvectors of a linear transformation: 
 Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then λR is called an eigenvalue of, T if there exists xV such that x≠0 and T(x)=λx. Such an x is called an eigenvector corresponding to the eigenvalue λ.
