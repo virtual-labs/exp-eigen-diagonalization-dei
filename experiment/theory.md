@@ -28,7 +28,7 @@ Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if
 \text{Thus 2x+8y=0 and x+4y=0 which }
 \\ \text{implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y),where $0\neq$ $y\in$ R. }
 \\ \text{ii.) Let A= $\begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix}$. }
-\\ \{To find the eigenvalues of A, consider the characteristic equation |A-λI|=0, i.e. $\mid \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix} - \begin{pmatrix} λ & 0 & 0 \\\ 0 & λ & 0 \\\ 0 & 0 & λ \end{pmatrix}  \mid$= 0,}
+\\ \text{To find the eigenvalues of A, consider the characteristic equation |A-λI|=0, i.e. $\mid \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix} - \begin{pmatrix} λ & 0 & 0 \\\ 0 & λ & 0 \\\ 0 & 0 & λ \end{pmatrix}  \mid$= 0,}
 \\ \text{i.e.  $\mid \begin{matrix} 1-λ & 2 & 1 \\\ 0 & 2-λ & 0 \\\ 0 & 1 & 2-λ \end{matrix} \mid.$ }
 \text{This gives (1-λ)(2-λ)2=0, which implies λ=1, 2 and 2. Thus the eigenvalues of A are 1, 2 and 2.}
 \\ \text{ To find eigenvectors of A for λ=1, consider (A-1.I)X=0. This gives $\begin{pmatrix} 0 & 2 & 1 \\\ 0 & 1 & 0 \\\ 0 & 1 & 1 \end{pmatrix}\begin{pmatrix} x \\\ y \\\ z \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \\\ 0 \end{pmatrix}.$ }
@@ -36,7 +36,6 @@ Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if
 \\ \text{ To find eigenvectors of A for λ=2, consider (A-2.I)X=0. This gives $\begin{pmatrix} -1 & 2 & 1 \\\ 0 & 0 & 0 \\\ 0 & 1 & 0 \end{pmatrix}\begin{pmatrix} x \\\ y \\\ z \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \\\ 0 \end{pmatrix}.$ }
 \\ \text{Thus x+2y+z=0, y=0 and y+z=0 which implies that x=-z. So, the eigenvector corresponding to λ=2 are (x, 0, -x),  where $0\neq$ $x\in$ R.}
 $$
-
  
 
 
