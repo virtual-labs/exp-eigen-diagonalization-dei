@@ -47,9 +47,13 @@ Let V be a finite dimensional vector space over the field R. Let T: V→V be a l
 Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then to find the eigenvalue and eigenvector of T, consider a matrix representation A associated to the linear transformation T w.r.t. the standard basis. Eigenvalues and eigenvectors of the matrix A are same as that of linear transformation T.
 #### 7. Example:
 
- $$\text{Let $T:R^2→R^2$ be a linear transformation such that T(x, y)=(y, x), where x, y&isin;R. Then to find the eigenvalues and eigenvectors of T,}
+ $$
+\begin{aligned}
+\text{Let $T:R^2→R^2$ be a linear transformation such that T(x, y)=(y, x), where x, $y\in$R. Then to find the eigenvalues and eigenvectors of T,}&
  \\ \text{consider the matrix representation given by  $\begin{pmatrix} 0 & 1 \\\ 1 & 0\end{pmatrix}$. associated to the linear transformation T w.r.t. the basis of $R^2$.}
- \\ \text{Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are the eigenvalues of T. }$$
+ \\ \text{Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are the eigenvalues of T. }
+ \end{aligned}
+ $$
 
 To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x. So, the eigenvectors corresponding to λ=1 are (x, x), where 0≠xR and eigen space is E<sub>1</sub>={(x, x), where x&isin;R}.<br>
       To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. So, the eigenvector corresponding to λ=-1 are (x, -x), where 0≠x&isin;R and its eigen space is E<sub>-1</sub>={(x, -x), where x&isin;R}.
