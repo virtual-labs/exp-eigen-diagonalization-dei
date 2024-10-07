@@ -66,6 +66,16 @@ Let A be matrix of order n×n and T: R<sup>n</sup>→R<sup>n</sup>.<br>
 (ii.) If 0 is an eigenvalue of a matrix A or a linear transformation T, then the matrix A or the linear transformation T is singular.<br>
 (iii.) If x is an eigenvector of a matrix A or a linear transformation T corresponding to an eigenvalue λ, then αx, where α≠0 is also an eigenvector corresponding to the eigenvalue λ<br>
 (iv.) If x and y are eigenvectors corresponding to an eigenvalue λ of a matrix A or a linear transformation T and -x≠y, then x+y is an eigenvector corresponding to the eigenvalue λ.
+
+$$
+\begin{aligned}
+&\hspace{-5cm} \text{Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}.
+\text{To find the eigenvalues of } A, \text{ consider the characteristic equation } |A - \lambda I| = 0, \text{ i.e.,} \\
+&\hspace{-5cm} \left| \begin{pmatrix} 1 & 8 \\\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\\ 0 & \lambda \end{pmatrix} \right| = 0.
+\text{This gives } (1 - \lambda)(3 - \lambda) - 8 = 0, \text{ which implies } \lambda = 5 \text{ and } -1. \\
+&\hspace{-5cm} \text{Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.
+\end{aligned}
+$$
 ####  9. Diagonalizability:
 Definition: A matrix A of order n×n is said to be diagonalizable if its eigenvectors form a basis of the vector space R<sup>n</sup> over R. <br>
 (i) Let A be diagonalizable such that λ<sub>1</sub>, λ<sub>2</sub>, λ<sub>3</sub>, …, λ<sub>n</sub> are its eigenvalues and B={x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, …, x<sub>n</sub>} is a basis of R<sup>n</sup>, where x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, …, x<sub>n</sub> are the corresponding eigenvectors. Let T: R<sup>n</sup>→R<sup>n</sup> be the linear transformation associated with the matrix A w.r.t. the standard basis of R<sup>n</sup>. Then matrix of T w.r.t. B is the diagonal matrix D having eigenvalues λ<sub>1</sub>, λ<sub>2</sub>, λ<sub>3</sub>, …, λ<sub>n</sub> as its diagonal entries. <br>
