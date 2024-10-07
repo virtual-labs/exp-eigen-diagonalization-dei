@@ -69,11 +69,11 @@ Let A be matrix of order n×n and T: R<sup>n</sup>→R<sup>n</sup>.<br>
 
 $$
 \begin{aligned}
-&\hspace{-5cm} \text{Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}.
+&\hspace{-3cm} \text{Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}.
 \text{To find the eigenvalues of } A, \text{ consider the characteristic equation } |A - \lambda I| = 0, \text{ i.e.,} \\
-&\hspace{-5cm} \left| \begin{pmatrix} 1 & 8 \\\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\\ 0 & \lambda \end{pmatrix} \right| = 0.
+&\hspace{-3cm} \left| \begin{pmatrix} 1 & 8 \\\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\\ 0 & \lambda \end{pmatrix} \right| = 0.
 \text{This gives } (1 - \lambda)(3 - \lambda) - 8 = 0, \text{ which implies } \lambda = 5 \text{ and } -1. \\
-&\hspace{-5cm} \text{Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.
+&\hspace{-3cm} \text{Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.
 \end{aligned}
 $$
 ####  9. Diagonalizability:
