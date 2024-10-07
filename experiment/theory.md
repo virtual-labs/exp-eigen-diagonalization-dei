@@ -82,6 +82,18 @@ Definition: A matrix A of order n×n is said to be diagonalizable if its eigenve
 In such a case A and D are called similar. <br>
 (ii) If a matrix A of order n×n has n distinct eigenvalues, then A is diagonalizable.<br>
 Note: If a matrix A of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 9(ii) below.
+
+
+$$
+\begin{aligned}
+&\hspace{-5cm} \text{Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}.
+\text{To find the eigenvalues of } A, \text{ consider the characteristic equation } |A - \lambda I| = 0, \text{ i.e.,} \\
+&\hspace{-5cm} \left| \begin{pmatrix} 1 & 8 \\\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\\ 0 & \lambda \end{pmatrix} \right| = 0.
+\text{This gives } (1 - \lambda)(3 - \lambda) - 8 = 0, \text{ which implies } \lambda = 5 \text{ and } -1. \\
+&\hspace{-5cm} \text{Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.
+\end{aligned}
+$$
+
 #### 10. Examples:
 $$\text{(i.) Let A= $\begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix}$.  Clearly, its eigenvalues are λ=1 and 2.}
 \\ \text{Thus the matrix A of order 2×2 has 2 distinct eigenvalues, Furthermore, the eigenvectors (0, 1) and (1, 1) of A form a basis of $R^2$. }
