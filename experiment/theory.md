@@ -52,15 +52,15 @@ Let V be a finite dimensional vector space over the field R and let T: V→V be 
 
 $$
 \begin{aligned}
-&\hspace{1cm} \text{Let $T:R^2→R^2$ be a linear transformation such that T(x, y)=(y, x), where x, $y\in$R. } \\
-&\hspace{1cm} \text{Then to find the eigenvalues and eigenvectors of T,} \text{consider the matrix representation given by  $\begin{pmatrix} 0 & 1 \\\ 1 & 0 &\hspace{1cm} \end{pmatrix}$. } \\ 
-&\hspace{1cm} \text{associated to the linear transformation T w.r.t. the basis of $R^2$.} \\
-&\hspace{1cm} \text{Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are  }\\
-&\hspace{1cm} \text{the eigenvalues of T.} \\
-&\hspace{1cm} \text{To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x.} \\
-&\hspace{1cm} \text{So, the eigenvectors corresponding to λ=1 are (x, x), where $0\neq$ $x\in$ R. and eigen space is $E_1$={(x, x), where $x\in$ R}. } \\
-&\hspace{1cm} \text{To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. } \\
-&\hspace{1cm} \text{So, the eigenvector corresponding to λ=-1 are (x, -x), where $0\neq$ $x\in$ R. and its eigen space is E$-_1$={(x, -x), where $x\in$ R}.}   
+&\hspace{-0.5cm} \text{Let $T:R^2→R^2$ be a linear transformation such that T(x, y)=(y, x), where x, $y\in$R. } \\
+&\hspace{-0.5cm} \text{Then to find the eigenvalues and eigenvectors of T,} \text{consider the matrix representation given by  $\begin{pmatrix} 0 & 1 \\\ 1 & 0 &\hspace{-0.5cm} \end{pmatrix}$. } \\ 
+&\hspace{-0.5cm} \text{associated to the linear transformation T w.r.t. the basis of $R^2$.} \\
+&\hspace{-0.5cm} \text{Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are  }\\
+&\hspace{-0.5cm} \text{the eigenvalues of T.} \\
+&\hspace{-0.5cm} \text{To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x.} \\
+&\hspace{-0.5cm} \text{So, the eigenvectors corresponding to λ=1 are (x, x), where $0\neq$ $x\in$ R. and eigen space is $E_1$={(x, x), where $x\in$ R}. } \\
+&\hspace{-0.5cm} \text{To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. } \\
+&\hspace{-0.5cm} \text{So, the eigenvector corresponding to λ=-1 are (x, -x), where $0\neq$ $x\in$ R. and its eigen space is E$-_1$={(x, -x), where $x\in$ R}.}   
  \end{aligned}
  $$
 
