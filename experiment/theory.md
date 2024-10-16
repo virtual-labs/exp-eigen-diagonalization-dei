@@ -50,18 +50,20 @@ Let V be a finite dimensional vector space over the field R. Let T: V→V be a l
 Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then to find the eigenvalue and eigenvector of T, consider a matrix representation A associated to the linear transformation T w.r.t. the standard basis. Eigenvalues and eigenvectors of the matrix A are same as that of linear transformation T.
 #### 7. Example:
 
-  $$
+$$
 \begin{aligned}
-&\hspace{1.7cm} \text{Let $T:R^2→R^2$ be a linear transformation such that T(x, y)=(y, x), where x, $y\in$R. } \\
-&\hspace{1.7cm} \text{Then to find the eigenvalues and eigenvectors of T,} \text{consider the matrix representation given by  $\begin{pmatrix} 0 & 1 \\\ 1 & 0 &\hspace{-3cm} \end{pmatrix}$. } \\ 
-&\hspace{1.7cm} \text{associated to the linear transformation T w.r.t. the basis of $R^2$.} \\
-&\hspace{1.7cm} \text{Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are the eigenvalues of T. }\\
-&\hspace{1.7cm} \text{To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x.} \\
-&\hspace{1.7cm} \text{So, the eigenvectors corresponding to λ=1 are (x, x), where $0\neq$ $x\in$ R. and eigen space is $E_1$={(x, x), where $x\in$ R}. } \\
-&\hspace{1.7cm} \text{To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. } \\
-&\hspace{1.7cm} \text{So, the eigenvector corresponding to λ=-1 are (x, -x), where $0\neq$ $x\in$ R. and its eigen space is E$-_1$={(x, -x), where $x\in$ R}.}   
+&\hspace{1.4cm} \text{Let $T:R^2→R^2$ be a linear transformation such that T(x, y)=(y, x), where x, $y\in$R. } \\
+&\hspace{1.4cm} \text{Then to find the eigenvalues and eigenvectors of T,} \text{consider the matrix representation given by  $\begin{pmatrix} 0 & 1 \\\ 1 & 0 &\hspace{1.4cm} \end{pmatrix}$. } \\ 
+&\hspace{1.4cm} \text{associated to the linear transformation T w.r.t. the basis of $R^2$.} \\
+&\hspace{1.4cm} \text{Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are  }\\
+&\hspace{1.4cm} \text{the eigenvalues of T.} \\
+&\hspace{1.4cm} \text{To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x.} \\
+&\hspace{1.4cm} \text{So, the eigenvectors corresponding to λ=1 are (x, x), where $0\neq$ $x\in$ R. and eigen space is $E_1$={(x, x), where $x\in$ R}. } \\
+&\hspace{1.4cm} \text{To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. } \\
+&\hspace{1.4cm} \text{So, the eigenvector corresponding to λ=-1 are (x, -x), where $0\neq$ $x\in$ R. and its eigen space is E$-_1$={(x, -x), where $x\in$ R}.}   
  \end{aligned}
  $$
+
 
 #### 8. Properties of eigenvalue and eigenvector:
 Let A be matrix of order n×n and T: R<sup>n</sup>→R<sup>n</sup>.<br>
