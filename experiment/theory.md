@@ -40,8 +40,6 @@ Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if
 \end{aligned}
 $$
  
-
-
 #### 4. Eigenvalues and eigenvectors of a linear transformation: 
 Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then λ&isin;R is called an eigenvalue of, T if there exists x&isin;V such that x≠0 and T(x)=λx. Such an x is called an eigenvector corresponding to the eigenvalue λ.
 ####  5. Eigen space of a linear transformation: 
@@ -59,8 +57,6 @@ associated to the linear transformation T w.r.t. the basis of R<sup>2</sup>. Thu
 To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x. So, the eigenvectors corresponding to λ=1 are (x, x), where 0≠x&isin;R and eigen space is E<sub>1</sub>={(x, x), where x&isin;R}. <br>
  To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. So, the eigenvector corresponding to λ=-1 are (x, -x), where 0≠x&isin;R and its eigen space is E<sub>-1</sub>={(x, -x), where x&isin;R}.
 
-
-
 #### 8. Properties of eigenvalue and eigenvector:
 Let A be matrix of order n×n and T: R<sup>n</sup>→R<sup>n</sup>.<br>
 (i.) Number of eigenvalues of a matrix A is less than or equal to n. <br>
@@ -68,32 +64,12 @@ Let A be matrix of order n×n and T: R<sup>n</sup>→R<sup>n</sup>.<br>
 (iii.) If x is an eigenvector of a matrix A or a linear transformation T corresponding to an eigenvalue λ, then αx, where α≠0 is also an eigenvector corresponding to the eigenvalue λ<br>
 (iv.) If x and y are eigenvectors corresponding to an eigenvalue λ of a matrix A or a linear transformation T and -x≠y, then x+y is an eigenvector corresponding to the eigenvalue λ.
 
-$$
-\begin{aligned}
-&\hspace{-3cm} \text{Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}.
-\text{To find the eigenvalues of } A, \text{ consider the characteristic equation } |A - \lambda I| = 0, \text{ i.e.,} \\
-&\hspace{-3cm} \left| \begin{pmatrix} 1 & 8 \\\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\\ 0 & \lambda \end{pmatrix} \right| = 0.
-\text{This gives } (1 - \lambda)(3 - \lambda) - 8 = 0, \text{ which implies } \lambda = 5 \text{ and } -1. \\
-&\hspace{-3cm} \text{Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.
-\end{aligned}
-$$
 ####  9. Diagonalizability:
 Definition: A matrix A of order n×n is said to be diagonalizable if its eigenvectors form a basis of the vector space R<sup>n</sup> over R. <br>
 (i) Let A be diagonalizable such that λ<sub>1</sub>, λ<sub>2</sub>, λ<sub>3</sub>, …, λ<sub>n</sub> are its eigenvalues and B={x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, …, x<sub>n</sub>} is a basis of R<sup>n</sup>, where x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, …, x<sub>n</sub> are the corresponding eigenvectors. Let T: R<sup>n</sup>→R<sup>n</sup> be the linear transformation associated with the matrix A w.r.t. the standard basis of R<sup>n</sup>. Then matrix of T w.r.t. B is the diagonal matrix D having eigenvalues λ<sub>1</sub>, λ<sub>2</sub>, λ<sub>3</sub>, …, λ<sub>n</sub> as its diagonal entries. <br>
 In such a case A and D are called similar. <br>
 (ii) If a matrix A of order n×n has n distinct eigenvalues, then A is diagonalizable.<br>
 Note: If a matrix A of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 9(ii) below.
-
-
-$$
-\begin{aligned}
-&\hspace{-5cm} \text{Let } A = \begin{pmatrix} 1a & 1b \\\ 2a & 2b \end{pmatrix}.
-\text{To find the eigenvalues of } A, \text{ consider the characteristic equation } |A - \lambda I| = 0, \text{ i.e.,} \\
-&\hspace{-5cm} \left| \begin{pmatrix} 1 & 8 \\\ 1 & 3 \end{pmatrix} - \begin{pmatrix} \lambda & 0 \\\ 0 & \lambda \end{pmatrix} \right| = 0.
-\text{This gives } (1 - \lambda)(3 - \lambda) - 8 = 0, \text{ which implies } \lambda = 5 \text{ and } -1. \\
-&\hspace{-5cm} \text{Thus, the eigenvalues of } A \text{ are } 1 \text{ and } 3.
-\end{aligned}
-$$
 
 #### 10. Examples:
 $$
