@@ -49,20 +49,16 @@ Let V be a finite dimensional vector space over the field R. Let T: V→V be a l
 #### 6. Finding eigenvalues and eigenvectors of a linear transformation:
 Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then to find the eigenvalue and eigenvector of T, consider a matrix representation A associated to the linear transformation T w.r.t. the standard basis. Eigenvalues and eigenvectors of the matrix A are same as that of linear transformation T.
 #### 7. Example:
+Let T:R<sup>2</sup>→R<sup>2</sup> be a linear transformation such that T(x, y)=(y, x), where x, y&isin;R. Then to find the eigenvalues and eigenvectors of T, consider the matrix representation given by
 
 $$
-\begin{aligned}
-&\hspace{-0.3cm} \text{Let $T:R^2→R^2$ be a linear transformation such that T(x, y)=(y, x), where x, $y\in$R. } \\
-&\hspace{-0.3cm} \text{Then to find the eigenvalues and eigenvectors of T,} \text{consider the matrix representation given by  $\begin{pmatrix} 0 & 1 \\\ 1 & 0 &\hspace{-0.3cm} \end{pmatrix}$. } \\ 
-&\hspace{-0.3cm} \text{associated to the linear transformation T w.r.t. the basis of $R^2$.} \\
-&\hspace{-0.3cm} \text{Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are  }\\
-&\hspace{-0.3cm} \text{the eigenvalues of T.} \\
-&\hspace{-0.3cm} \text{To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x.} \\
-&\hspace{-0.3cm} \text{So, the eigenvectors corresponding to λ=1 are (x, x), where $0\neq$ $x\in$ R. and eigen space is $E_1$={(x, x), where $x\in$ R}. } \\
-&\hspace{-0.3cm} \text{To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. } \\
-&\hspace{-0.3cm} \text{So, the eigenvector corresponding to λ=-1 are (x, -x), where $0\neq$ $x\in$ R. and its eigen space is E$-_1$={(x, -x), where $x\in$ R}.}   
- \end{aligned}
- $$
+ \begin{pmatrix} 0 & 1 \\\ 1 & 0 \end{pmatrix}.
+$$
+
+associated to the linear transformation T w.r.t. the basis of R<sup>2</sup>. Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are the eigenvalues of T. <br>
+To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x. So, the eigenvectors corresponding to λ=1 are (x, x), where 0≠x&isin;R and eigen space is E<sub>1</sub>={(x, x), where x&isin;R}. <br>
+ To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. So, the eigenvector corresponding to λ=-1 are (x, -x), where 0≠x&isin;R and its eigen space is E<sub>-1</sub>={(x, -x), where x&isin;R}.
+
 
 
 #### 8. Properties of eigenvalue and eigenvector:
@@ -100,9 +96,27 @@ $$
 $$
 
 #### 10. Examples:
-$$\text{(i.) Let A= $\begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix}$.  Clearly, its eigenvalues are λ=1 and 2.}
-\\ \text{Thus the matrix A of order 2×2 has 2 distinct eigenvalues, Furthermore, the eigenvectors (0, 1) and (1, 1) of A form a basis of $R^2$. }
-\\ \text{So, A is a diagonalizable matrix similar to D= $\begin{pmatrix} 1 & 0 \\\ 0 & 2\end{pmatrix}$. Hence the matrix A is diagonalizable.}
-\\ \text{(ii.) Let A= $\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}$.  Clearly, its eigenvalues are λ=1, 1 and -1, which are not all distinct. }
-\\ \text{Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of A form a basis of $R^3$. So, A is a diagonalizable matrix similar to the matrix D= $\begin{pmatrix} 1 & 0 & 0 \\\ 0 & -1 & 0 \\\ 0 & 0 & 1 \end{pmatrix}$. }
-\\ \text{Hence the matrix A is diagonalizable. Thus it may be noted that the eigenvalues of a matrix may not be distinct but the matrix is diagonalizable. }$$
+$$
+\begin{aligned}
+&\hspace{-3cm} \text{i.) Let } A = \begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix}
+\end{aligned}
+$$
+
+Clearly, its eigenvalues are λ=1 and 2. Thus the matrix A of order 2×2 has 2 distinct eigenvalues, Furthermore, the eigenvectors (0, 1) and (1, 1) of A form a basis of R<sup>2</sup>. 
+Hence A is a diagonalizable matrix as it is similar to 
+
+$$
+\begin{aligned}
+&\hspace{-3cm} \text{D= } \begin{pmatrix} 1 & 0 \\\ 0 & 2\end{pmatrix}. \\
+&\hspace{-3cm} \text{(ii.) Let A= }\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}.
+\end{aligned}
+$$
+ Clearly, its eigenvalues are λ=1, 1 and -1, which are not all distinct. Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of A form a basis of R<sup>3</sup>. Hence A is a diagonalizable matrix as it is similar to the matrix 
+$$
+\begin{aligned}
+&\hspace{-3cm} \text{D= } \begin{pmatrix} 1 & 0 & 0 \\\ 0 & -1 & 0 \\\ 0 & 0 & 1 \end{pmatrix}.
+\end{aligned}
+$$
+##### Remark: <br> 
+Thus it may be noted that the eigenvalues of a matrix may not be distinct but the matrix is diagonalizable.
+
