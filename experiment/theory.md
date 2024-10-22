@@ -39,12 +39,13 @@ To find the eigenvalues of A, consider the characteristic equation |A-λI|=0. i.
 
 $$
 \begin{aligned}
-$\mid \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix} - \begin{pmatrix} λ & 0 & 0 \\\ 0 & λ & 0 \\\ 0 & 0 & λ \end{pmatrix}  \mid= 0,
-\text{&emsp;&emsp; i.e.  $\mid \begin{matrix} 1-λ & 2 & 1 \\\ 0 & 2-λ & 0 \\\ 0 & 1 & 2-λ \end{matrix} \mid.$ }
+\mid \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix} - \begin{pmatrix} λ & 0 & 0 \\\ 0 & λ & 0 \\\ 0 & 0 & λ \end{pmatrix}  \mid= 0,
+\text{ i.e. }\mid \begin{matrix} 1-λ & 2 & 1 \\\ 0 & 2-λ & 0 \\\ 0 & 1 & 2-λ \end{matrix} \mid.
 \end{aligned}
 $$
 
-This gives (1-λ)(2-λ)2=0, which implies λ=1, 2 and 2. Thus the eigenvalues of A are 1, 2 and 2. <br>
+
+This gives (1-λ)(2-λ)2=0, which implies λ=1, 2 and 2. Thus the eigenvalues of A are 1, 2 and 2. <br><br>
 To find eigenvectors of A for λ=1, consider (A-1.I)X=0. This gives 
 
 $$
