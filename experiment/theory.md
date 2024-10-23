@@ -9,7 +9,7 @@ Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if
 
 $$
 \begin{aligned}
-&\hspace{-12.1cm} \text{i.) Let } A = \begin{pmatrix} 1 & 8 \\\ 1 & 3\end{pmatrix}
+&\hspace{-10cm} \text{i.) Let } A = \begin{pmatrix} 1 & 8 \\\ 1 & 3\end{pmatrix}
 \end{aligned}
 $$
 
