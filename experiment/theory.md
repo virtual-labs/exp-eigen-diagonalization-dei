@@ -9,7 +9,7 @@ Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if
 
 $$
 \begin{aligned}
-&\hspace{-9.5cm} \text{i.) Let } A = \begin{pmatrix} 1 & 8 \\\ 1 & 3\end{pmatrix}
+&\hspace{-9.3cm} \text{i.) Let } A = \begin{pmatrix} 1 & 8 \\\ 1 & 3\end{pmatrix}
 \end{aligned}
 $$
 
@@ -29,7 +29,7 @@ Thus 2x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector correspond
 
 $$
 \begin{aligned}
-&\hspace{-9.5cm} \text{ii.) Let } A = \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix}
+&\hspace{-9.3cm} \text{ii.) Let } A = \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix}
 \end{aligned}
 $$
 
@@ -96,7 +96,7 @@ Note: If a matrix A of order n×n does not have n distinct eigenvalues, then A c
 #### 10. Examples:
 $$
 \begin{aligned}
-&\hspace{-9.5cm} \text{i.) Let } A = \begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix}
+&\hspace{-9.4cm} \text{i.) Let } A = \begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix}
 \end{aligned}
 $$
 
@@ -106,7 +106,7 @@ Hence A is a diagonalizable matrix as it is similar to
 $$
 \begin{aligned}
 &\hspace{-3cm} \text{D= } \begin{pmatrix} 1 & 0 \\\ 0 & 2\end{pmatrix}. \\
-&\hspace{-9.5cm} \text{(ii.) Let A= }\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}.
+&\hspace{-9.2cm} \text{(ii.) Let A= }\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}.
 \end{aligned}
 $$
  Clearly, its eigenvalues are λ=1, 1 and -1, which are not all distinct. Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of A form a basis of R<sup>3</sup>. Hence A is a diagonalizable matrix as it is similar to the matrix 
