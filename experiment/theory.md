@@ -9,44 +9,41 @@ Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if
 
 $$
 \begin{aligned}
-&\hspace{-9.6cm} \text{i.) Let } A = \begin{pmatrix} 1 & 8 \\\ 1 & 3\end{pmatrix}
+&\hspace{-9.5cm} \text{i.) Let } A = \begin{pmatrix} 1 & 8 \\\ 1 & 3\end{pmatrix}
 \end{aligned}
 $$
 
-To find the eigenvalues of A, consider the characteristic equation |A-λI|=0, This gives (1-λ)(3-λ)-8=0, which implies λ=5 and -1. Thus the eigenvalues of A are 1 and 3.<br>
-To find eigenvectors of A for λ=5, consider (A-5.I)X=0. This gives
+To find the eigenvalues of A, consider the characteristic equation |A-λI|=0, This gives (1-λ)(3-λ)-8=0, which implies λ=5 and -1. Thus the eigenvalues of A are 1 and 3. To find eigenvectors of A for λ=5, consider (A-5.I)X=0. This gives
 
 $$
 \begin{pmatrix} -4 & 8 \\\ 1 & -2 \end{pmatrix} \begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}
 $$
 
-Thus -4x+8y=0 and x-2y=0 which implies that x=2y. So, the eigenvectors corresponding to λ=5 are (2y, y), where 0≠y&isin;R. <br>
-To find eigenvectors of A for λ=-1, consider (A-(-1).I)X=0. This gives
+Thus -4x+8y=0 and x-2y=0 which implies that x=2y. So, the eigenvectors corresponding to λ=5 are (2y, y), where 0≠y&isin;R. To find eigenvectors of A for λ=-1, consider (A-(-1).I)X=0. This gives
 
 $$
 \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}.
 $$
 
-Thus 2x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y),where  0≠y&isin;R. <br>
+Thus 2x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y),where  0≠y&isin;R.
 
 $$
 \begin{aligned}
-&\hspace{-3cm} \text{ii.) Let } A = \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix}
+&\hspace{-9.5cm} \text{ii.) Let } A = \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix}
 \end{aligned}
 $$
 
-To find the eigenvalues of A, consider the characteristic equation |A-λI|=0. i.e. 
+To find the eigenvalues of A, consider the characteristic equation |A-λI|=0. 
 
 $$
 \begin{aligned}
-\mid \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix} - \begin{pmatrix} λ & 0 & 0 \\\ 0 & λ & 0 \\\ 0 & 0 & λ \end{pmatrix}  \mid= 0,
+\text{ i.e. }\mid \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix} - \begin{pmatrix} λ & 0 & 0 \\\ 0 & λ & 0 \\\ 0 & 0 & λ \end{pmatrix}  \mid= 0,
 \text{ i.e. }\mid \begin{matrix} 1-λ & 2 & 1 \\\ 0 & 2-λ & 0 \\\ 0 & 1 & 2-λ \end{matrix} \mid.
 \end{aligned}
 $$
 
 
-This gives (1-λ)(2-λ)2=0, which implies λ=1, 2 and 2. Thus the eigenvalues of A are 1, 2 and 2. <br><br>
-To find eigenvectors of A for λ=1, consider (A-1.I)X=0. This gives 
+This gives (1-λ)(2-λ)2=0, which implies λ=1, 2 and 2. Thus the eigenvalues of A are 1, 2 and 2. To find eigenvectors of A for λ=1, consider (A-1.I)X=0. This gives 
 
 $$
 \begin{aligned}
@@ -54,8 +51,7 @@ $$
 \end{aligned}
 $$
 
-Thus 2y+z=0, 2y=0 and y+z=0 which imply that y=0 and z=0. So, the eigenvectors corresponding to λ=1 are (x, 0, 0), where 0≠x&isin;R. <br> <br>
-To find eigenvectors of A for λ=2, consider (A-2.I)X=0. This gives 
+Thus 2y+z=0, 2y=0 and y+z=0 which imply that y=0 and z=0. So, the eigenvectors corresponding to λ=1 are (x, 0, 0), where 0≠x&isin;R. To find eigenvectors of A for λ=2, consider (A-2.I)X=0. This gives 
 
 $$
 \begin{aligned}
@@ -66,8 +62,6 @@ $$
 Thus x+2y+z=0, y=0 and y+z=0 which implies that x=-z. So, the eigenvector corresponding to λ=2 are (x, 0, -x), where 0≠x&isin;R.
 
 
-
- 
 #### 4. Eigenvalues and eigenvectors of a linear transformation: 
 Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then λ&isin;R is called an eigenvalue of, T if there exists x&isin;V such that x≠0 and T(x)=λx. Such an x is called an eigenvector corresponding to the eigenvalue λ.
 ####  5. Eigen space of a linear transformation: 
