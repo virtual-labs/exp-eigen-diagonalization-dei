@@ -48,10 +48,10 @@
         {
             "question": "Let $A = \\begin{bmatrix} 1 & 0 \\\\ 1 & 2 \\end{bmatrix}$. Then which of the following is a solution of $AX = 2X$.",
             "answers": {
-                "a": "$X = \begin{bmatrix} 1 \\\\ 2 \\end{bmatrix}$",
-                "b": "$X = \begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}$",
-                "c": "$X = \begin{bmatrix} 2 \\\\ -1 \\end{bmatrix}$",
-                "d": "$X = \begin{bmatrix} 3 \\\\ 0 \\end{bmatrix}$"
+                "a": "$X = \\begin{bmatrix} 1 \\\\ 2 \\end{bmatrix}$",
+                "b": "$X = \\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}$",
+                "c": "$X = \\begin{bmatrix} 2 \\\\ -1 \\end{bmatrix}$",
+                "d": "$X = \\begin{bmatrix} 3 \\\\ 0 \\end{bmatrix}$"
             },
             "correctAnswer": "b",
             "difficulty": "beginner"
