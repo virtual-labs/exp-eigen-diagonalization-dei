@@ -29,7 +29,7 @@
         "a": "2 distinct eigenvalues",
         "b": "1 eigenvalue only",
         "c": "No eigenvalue",
-        "d": "None of the above"
+        "d": "Atmost 2 eigenvalue only"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -40,7 +40,7 @@
         "a": "$E_{\\alpha} \\cap E_{\\mu} = \\varphi$",
         "b": "$E_{\\alpha} \\subseteq E_{\\mu}$",
         "c": "$x \\notin E_{\\alpha} \\cap E_{\\mu}$, if $x \\neq 0$",
-        "d": "None of the above"
+        "d": "$x \\notin E_{\\alpha} \\cap E_{\\mu}$, if $x \\eq 0$"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -51,7 +51,7 @@
         "a": "$(-x, 2x)$, where $x \\in \\mathbb{R} \\setminus \\{0\\}$",
         "b": "$(0, x)$, where $x \\in \\mathbb{R}$",
         "c": "$(-x, 0)$, where $x \\in \\mathbb{R}$",
-        "d": "None of the above"
+        "d": ""$(-x, 2x)$, where $x \\in \\mathbb{R}$"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
