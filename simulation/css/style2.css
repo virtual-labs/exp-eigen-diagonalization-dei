@@ -1,0 +1,108 @@
+body{
+    width: 99%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+}
+.pagehead{
+  display: block;
+  text-align: center;
+  border-top: 2px solid lightseagreen;
+  background: linear-gradient(yellow, lightseagreen);
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  float:center;
+  margin: 0.5rem;
+  font-size: 32px;
+}
+.container{
+    padding: 1rem;
+    border-radius: 1.2rem;
+    background-color: lightyellow;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 3px 15px rgba(133, 115, 119, 0.5);
+}
+img{
+    width: 25rem;
+    height:20rem;
+}
+#exmp{
+    width: 45rem;
+}
+#rglt{
+    width: 35rem;
+    height:15rem;
+
+}
+#nslt{
+    width: 33rem;
+    height:20rem;
+
+}
+#note{
+    font-size: 1rem;
+    color:darkblue;
+}
+#lambdax{
+    width:30rem;
+}
+#lambdaxt{
+    width:30rem;
+}
+.next{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:8rem;
+    float:right;
+}
+.next:hover {
+  background-color: #ada;
+  color: black;
+}
+.previous{
+    display: block;
+    float:left;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:5rem;
+}
+.previous:hover {
+  background-color: #ada;
+  color: black;
+}
+.ques{
+    color: blue;
+}
+input{
+    font-size: 1rem;
+    width: 55px;
+}
+label{
+    color: blue;
+}
+.subbtn{
+    height:auto;
+    width:auto;
+    background-color:#81cdc6;
+    font-size: 1.2rem;
+    border: 1px solid teal;
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+#prereqbtn{
+    background-color: #dfee11;
+    border: 1px solid rgb(139, 119, 4);
+}
