@@ -1,6 +1,6 @@
-1.	Click on the “Multiples of x∈R2” button to see the geometry of multiples of elements of R2.
-2.	Click on the “T(x) ∈R2” button to visualize the role of T.
-3.	To see the combined view of multiples of X∈R2 and T(x) ∈R2, click on the “Combined View” button.
+1.	Click on the “Multiples of x∈R<sup>2</sup>” button to see the geometry of multiples of elements of R<sup>2</sup>.
+2.	Click on the “T(x) ∈R<sup>2</sup>” button to visualize the role of T.
+3.	To see the combined view of multiples of X∈R<sup>2</sup> and T(x) ∈R<sup>2</sup>, click on the “Combined View” button.
 4.	To understand eigenvalue and eigenvector, click on the “Visualization (Eigenvalue and Eigenvector)” button.
 5.	Click on the “Next” Button to go to the next page.
 6.	Enter the values of a, c and d to choose matrix A and click on “Submit” button to display the matrix A.
