@@ -5,7 +5,7 @@
 5.	Observe the transformation defined. 
 6.	In “Eigen Values” section, select the correct option from the dropdown to answer the given question and click on submit to check the answer along with the reason. 
 7.	In the “Eigenvectors” section, choose the answer from the dropdown for each question and click on “Submit” button to check the answer along with the reason.
-8.	 “Visualization” section provides geometric interpretation of the transformation T and its eigenvalues and eigenvectors.
+8.	“Visualization” section provides geometric interpretation of the transformation T and its eigenvalues and eigenvectors.
 9.	Click on “Next” button to go to the next page.
 10.	Enter the values of a, c and d to choose matrix A and click on “Submit” button to display the matrix A.
 11.	Click on the “Eigenvalues” button to learn the working of eigenvalues through characteristic equation and its roots.
