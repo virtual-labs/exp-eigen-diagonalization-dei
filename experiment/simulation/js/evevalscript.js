@@ -148,7 +148,7 @@ function smatrix(){
 			MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 
 				//LAMBDA2 == A
-			document.getElementById('ttl2').innerHTML = `\\[ Eigenvector: ${latexCode2}, x&isin;R&emsp;and&emsp;x&ne;0 &emsp;\\] `;
+			document.getElementById('ttl2').innerHTML = document.getElementById('ttl1').innerHTML = `\\[ \\text{Eigenvector: } ${latexCode1},\\; x \\in \\mathbb{R},\\; \\text{and}\\; x \\neq 0 \\]`;
 			document.getElementById("ttl2").style.display="block";
 				MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 			document.getElementById("see-exp2").innerHTML ="&emsp;<li>Eigenvector: (x, y) satisfies AX = &lambda;X</li>";
