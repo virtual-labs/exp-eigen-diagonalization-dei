@@ -13,11 +13,11 @@
 .subbtn{
         height:auto;
         width:auto;
-        background-color:#81cdc6;
+        background-color:#4af43d;
         font-size: 1.5rem;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 600;
-        border: 1px solid teal;
+        border: 1px solid rgb(0, 0, 0);
         margin: 0.5rem 0.2rem 0.2rem 0.2rem;
         cursor: pointer;
     }
@@ -31,65 +31,161 @@
         border: 1px solid teal;
         margin: 0.5rem 0.2rem 0.2rem 0.2rem;
     }
+    .subbtn2{
+        height:auto;
+        width:auto;
+        background-color:#81cdc6;
+        font-size: 1.3rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        border: 1px solid teal;
+        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+        cursor: pointer;
+    }
+
+    .subbtn3{
+        height:auto;
+        width:auto;
+        background-color:#81cdc6;
+        font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        border: 1px solid teal;
+        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+        cursor: pointer;
+    }
     .subcont, .evevdiv{
         display: flex;
          align-items: center;
     }
+
+    #result, #result1, #result2, #result3, #result4, #result5{
+font-size: 1.3rem;
+    }
+
 </style>
 <body>
-	<h2 class="pagehead">Eigenvalue and Eigenvector of Linear Transformation T:R<sup>2</sup>&rarr;R<sup>2</sup></h2>
+	<h2 class="pagehead">Visualization of concepts</h2>
 	<div class="container">
 
-        
-        <button class="subbtn" id="mulx"  onclick="mulX()">Multiples of x&isin;R<sup>2</sup></button><br>
-        <img id="multX" src="images/multX111.png"><br>
+        <button class="subbtn">Multiples of x&isin;R<sup>2</sup></button><br>
+<ul>
+    <li><button class="subbtn2" onclick="mulX2()" >Visualization</button></li> 
+          <img id="multX" src="images/multX111.png" style="height: 12rem; width:auto; margin-top: 1rem;";>
+        <li><p style="font-size: 1.4rem;"><select name="" id="vectorSelect">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(2, -2)</option>
+            <option value="c">(-1, .5)</option>
+            <option value="d">(1/3, 2/3)</option>
+            <option value="e">(&radic;2, &radic;2)</option>
+        </select> is a multiple of (1, 1)&isin;R<sup>2</sup>
 
-        <button class="subbtn" id="tx"  onclick="txfun()">T(x) &isin;R<sup>2</sup></button><br>
-        <img id="tximg" src="images/tx1111.png" style="width: 89vh; height: auto;"><br>
-		
-        <!-- <ul id="uldef" style="display: none;">
-            <li>T(x)=&lambda;x; x &ne; 0</li>
-            <li>x is eigen vector, &lambda; is eigen value</li>
-           <img id="map" src="images/exp7img.PNG" alt="eigen_Values">
-        </ul> -->
+            <button class="subbtn3" type="submit" id="mulx"  onclick="ques1()">Submit</button></p></li>
+         
+        <p id="result"></p>
+        <li><p style="font-size: 1.4rem;"><select name="" id="vectorSelect2">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(.5, .5)</option>
+            <option value="c">(2, -2)</option>
+            <option value="d">(1/2, 1/2)</option>
+            <option value="e">(&radic;2, &radic;2)</option>
+        </select> is not a multiple of (1, 1)&isin;R<sup>2</sup>
+            
+           <button class="subbtn3" type="submit" id="mulx"  onclick="ques2()">Submit</button></p></li>
+        <p id="result2"></p>
+        <!-- <button class="subbtn2" >Think</button><br> -->
+          </ul>    
 
+<button class="subbtn" id="tx">T(x) &isin;R<sup>2</sup></button><br>
+ <ul style="font-size: 1.4rem;"><li><button class="subbtn2" onclick="txfun()" >Visualization</button></li>
+        <img id="tximg" src="images/tx1111.png" style="width: 89vh; height: auto;">
+<li><p style="font-size: 1.4rem;" >T:R<sup>2</sup>&rarr;R<sup>2</sup> be defined by T(a, b) = (2a, 3b), a,b &isin;R</p></li>
+       
+    <ul>       
+        <li>
+            <p>For x = (1, 0), T(x) =
+            
+            <select name="" id="vectorSelect3">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(2, -2)</option>
+            <option value="c">(2, 3)</option>
+            <option value="d">(2, 0)</option>
+            <option value="e">(&radic;2, 2)</option>
+        </select>
+        <button class="subbtn3" type="submit" id="mulx"  onclick="ques3()">Submit</button></p></li>
+         
+        <p id="result3"></p>
+
+        <li>
+            <p style="font-size: 1.4rem;">For x = (-1, 1), T(x) =
+            
+            <select name="" id="vectorSelect4">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(-2, 2)</option>
+            <option value="c">(-2, 3)</option>
+            <option value="d">(2, 0)</option>
+            <option value="e">(&radic;2, 2)</option>
+        </select>
+        <button class="subbtn3" type="submit" id="mulx"  onclick="ques4()">Submit</button></p></li>
+         
+        <p id="result4"></p>
+        </ul>
+         </ul><br>
 		
 		
-        <button class="subbtn" id="infrbtn"  onclick="infren()">Combined View</button><br>
-        <img id="infr" src="images/infr11.png" style="width: 89vh; height: auto;"><br>
-		
-		
-        <div class="evevdiv">
-        <button class="subbtn"  onclick="eveval()"> Visualization (Eigenvalue and Eigenvector)</button>
-        <p id="evevtext1" style="margin-left: 9px;"></p>
-    </div>
+       
+        <button class="subbtn">Eigenvalue and Eigenvector</button>
+          <ul style="font-size: 1.4rem;">
+            <li><button class="subbtn2"  onclick="eveval()" >Visualization</button></li><br>
+
 		<img id="evev" src="images/tx11.png" style="width: 89vh; height: auto;">
-        <p id="evevtext"></p>
-		<!-- 
-		<h3>Example:</h3>
-		<p>T:R<sup>2</sup> &rarr; R<sup>2</sup></p>
-		<p>T(x, y) = (y, x)</p>
-		<p><strong>Matrix w.r.t. the standard bases: </strong> \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}</p> 
-		<p><strong>Charcteristics Equation: </strong>&lambda;<sup>2</sup> - 1 = 0</p>
-		<p><strong>Eigen Values: </strong> 1, -1</p>
-		<p><strong>Eigen Vectors: </strong>Corresponding to 1: (x, x), x &ne; 0, x &isin; R<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; Corresponding to -1: (-x, x), x &ne; 0, x &isin; R</p> 
-		<p><strong>Visualization: </strong>Enter the values of x and y to visualize eigen vectors<br>
-		x:<input type="number" id="x1"> y:<input type="number" id="y1">
-		<input type="submit" value="Submit" onclick="exmp1();">
-		<p id="exmp1res"></p>
-		<canvas id="my-canvas" width="250" height="250"></canvas>
-		 <img id="exmp1" src="images/example1.png"> -->
+        <li><p style="font-size: 1.4rem;">&lambda;&isin;R and T:R<sup>2</sup>&rarr;R<sup>2</sup> is linear</p></li>
+    
+       <ul>
+        <li><p>&lambda; is an eigenvalue of T, if T(x) = &lambda;x, 
+            
+           <select name="" id="vectorSelect5">
+  <option value="a">--Select--</option>
+  <option value="b">for all x ∈ R²</option>
+  <option value="c">for all x ≠ 0, x ∈ R²</option>
+  <option value="d">for some x ≠ 0, x ∈ R²</option>
+</select>
 
-		
+        <br>
+        <button class="subbtn3" type="submit" id="mulx"  onclick="ques5()">Submit</button></p></li>
+         
+        <p id="result5"></p>
+
+         <li><p style="font-size: 1.4rem;">y is an eigenvector corresponding to eigenvalue &lambda;, 
+            if for y&isin;R<sup>2</sup>, T(x) = &lambda;x and 
+            
+            <select name="" id="vectorSelect6">
+            
+            <option value="a">--Select--</option>
+            <option value="b">x&ne;(0, 0)</option>
+            <option value="c">x=(0, 0)</option>
+            <option value="d">x=(1, 0)</option>
+            <option value="e">x=(1, 1)</option>
+         
+            
+        </select>
+        <br>
+        <button class="subbtn3" type="submit" id="mulx"  onclick="ques6()">Submit</button></p></li>
+         
+        <p id="result6"></p>
+        </ul>
+       </ul>
+       
 		
 	</div>
+
 <p style="float: center; align-content:right;">
-<a href="eVeceValMatrix.html" class="next" >Next &raquo;</a></p>
+<a href="example1.html" class="next" >Next &raquo;</a></p>
 
 
 </body>
-
-
-
-
 </html>

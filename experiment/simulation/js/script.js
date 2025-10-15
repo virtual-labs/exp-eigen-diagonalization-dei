@@ -1,171 +1,241 @@
+function mulX2(){
+    document.getElementById('multX').src='images/multX.png';
+}
 function txfun(){
     document.getElementById('tximg').src='images/tx111.png';
 }
 
-function mulX(){
-    document.getElementById('multX').src='images/multX.png';
+
+
+
+function ques1(){
+      const selected = document.getElementById("vectorSelect").value;
+  const result = document.getElementById("result");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "e") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! (&radic;2, &radic;2) is a multiple of (1, 1).";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! (&radic;2, &radic;2) is a multiple of (1, 1).";
+    result.style.color = "red";
+    
+  }}
+}
+
+function ques2(){
+      const selected = document.getElementById("vectorSelect2").value;
+  const result = document.getElementById("result2");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "c") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! (2, -2) is not a multiple of (1, 1).";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! (2, -2) is not a multiple of (1, 1).";
+    result.style.color = "red";
+    
+  }}
+}
+
+function ques3(){
+      const selected = document.getElementById("vectorSelect3").value;
+  const result = document.getElementById("result3");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "d") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! T(x) = (2, 0).";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! T(x) = (2, 0).";
+    result.style.color = "red";
+    
+  }}
+}
+
+function ques4(){
+      const selected = document.getElementById("vectorSelect4").value;
+  const result = document.getElementById("result4");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "c") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! T(x) = (-2, 3).";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! T(x) =(-2, 3).";
+    result.style.color = "red";
+    
+  }}
+}
+
+
+
+function ques5(){
+      const selected = document.getElementById("vectorSelect5").value;
+  const result = document.getElementById("result5");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "d") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! <br> λ is an eigenvalue of T if T(x) = λx  for some x&ne;0, x&isin;R<sup>2</sup>.";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! <br> λ is an eigenvalue of T if T(x) = λx  for some x&ne;0, x&isin;R<sup>2</sup>.";
+    result.style.color = "red";
+    
+  }}
+}
+
+
+function ques6(){
+      const selected = document.getElementById("vectorSelect6").value;
+  const result = document.getElementById("result6");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "b") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! if for x∈R<sup>2</sup>, T(x) = λx and x&ne;(0, 0).";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! if for x∈R<sup>2</sup> T(x) = λx and x&ne;(0, 0).";
+    result.style.color = "red";
+    
+  }}
 }
 function infren(){
     document.getElementById('infr').src='images/infrn.png';
 }
 function eveval(){
     document.getElementById('evev').src='images/eveval111.png';
-    document.getElementById('evevtext').innerHTML = "<ul><li>T(x) = &lambda;x, for some x&ne;0 and for some &lambda;&isin;R</li><li>x is eigen vector, λ is eigen value</ul>";
-    // document.getElementById('evevtext1').innerHTML = "T(x) = &lambda;x";
+
 }
 
 
-	
-	
-// var grid_size = 12;
-// var x_axis_distance_grid_lines = 10;
-// var y_axis_distance_grid_lines = 5;
-// var x_axis_starting_point = { number: 1, suffix: '' };
-// var y_axis_starting_point = { number: 1, suffix: '' };
+// ================================= PAGE 2 SCRIPT =============================================
 
-// var canvas = document.getElementById("my-canvas");
 
-// var ctx = canvas.getContext("2d");
 
-// var canvas_width = canvas.width;
-// var canvas_height = canvas.height;
-
-// var num_lines_x = Math.floor(canvas_width/grid_size);
-// var num_lines_y = Math.floor(canvas_height/grid_size);
-        
-// // Draw grid lines along X-axis
-// for(var i=0; i<=num_lines_x; i++) {
-//     ctx.beginPath();
-//     ctx.lineWidth = 1;
+function p2que0(){
+  
+      const selected = document.getElementById("valSelect0").value;
+  const result = document.getElementById("p2result0");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "c") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! Eigenvalues of T are 1 & -1. <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1) <br> &emsp;&emsp; &emsp; T(1, -1) = (-1, 1) = (-1).(1 -1)";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Eigenvalues of T are 1 & -1. <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1) <br> &emsp;&emsp; &emsp; T(1, -1) = (-1, 1) = (-1).(1 -1)";
+    result.style.color = "red";
     
-//     // If line represents X-axis draw in different color
-//     if(i == x_axis_distance_grid_lines) 
-//         ctx.strokeStyle = "#000000";
-//     else
-//         ctx.strokeStyle = "#dcdcdc";
+  }}
+}
+
+
+function p2que1(){
+  
+      const selected = document.getElementById("vectorSelect1").value;
+  const result = document.getElementById("p2result1");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "c") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! (1, 1) is an eigenvector. <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1)</span>";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! (1, 1) is an eigenvector. <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1)</span>";
+    result.style.color = "red";
     
-//     if(i == num_lines_x) {
-//         ctx.moveTo(0, grid_size*i);
-//         ctx.lineTo(canvas_width, grid_size*i);
-//     }
-//     else {
-//         ctx.moveTo(0, grid_size*i+0.5);
-//         ctx.lineTo(canvas_width, grid_size*i+0.5);
-//     }
-//     ctx.stroke();
-// }
+  }}
+}
 
-// // Draw grid lines along Y-axis
-// for(i=0; i<=num_lines_y; i++) {
-//     ctx.beginPath();
-//     ctx.lineWidth = 1;
+
+function p2que2(){
+  
+      const selected = document.getElementById("vectorSelect2").value;
+  const result = document.getElementById("p2result2");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "d") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! <br> An eigenvector is given by (x, x), x ≠ 0, x ∈ R.";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! <br> An eigenvector is given by (x, x), x ≠ 0, x ∈ R.";
+    result.style.color = "red";
     
-//     // If line represents X-axis draw in different color
-//     if(i == y_axis_distance_grid_lines) 
-//         ctx.strokeStyle = "#000000";
-//     else
-//         ctx.strokeStyle = "#dcdcdc";
+  }}
+}
 
-//     if(i == num_lines_y) {
-//         ctx.moveTo(grid_size*i, 0);
-//         ctx.lineTo(grid_size*i, window.canvas_height);
-//     }
-//     else {
-//         ctx.moveTo(grid_size*i+0.5, 0);
-//         ctx.lineTo(grid_size*i+0.5, canvas_height);
-//     }
+function p2que3(){
+  
+      const selected = document.getElementById("vectorSelect3").value;
+  const result = document.getElementById("p2result3");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "b") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! (1, -1) is an eigenvector. <br> <span style='color:black;'>Reason: T(1, -1) = (-1, 1) = (-1).(1 -1)</span>";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! (1, -1) is an eigenvector. <br> <span style='color:black;'>Reason: T(1, -1) = (-1, 1) = (-1).(1 -1)</span>";
+    result.style.color = "red";
     
-//     ctx.stroke();
-// }
+  }}
+}
 
-// // Translate to the new origin. Now Y-axis of the canvas is opposite to the Y-axis of the graph. So the y-coordinate of each element will be negative of the actual
-// ctx.translate(y_axis_distance_grid_lines*grid_size, x_axis_distance_grid_lines*grid_size);
 
-// // Ticks marks along the positive X-axis
-// for(i=1; i<(num_lines_y - y_axis_distance_grid_lines); i++) {
-//     ctx.beginPath();
-//     ctx.lineWidth = 1;
-//     ctx.strokeStyle = "#000000";
-
-//     // Draw a tick mark 6px long (-3 to 3)
-//     ctx.moveTo(grid_size*i+0.5, -3);
-//     ctx.lineTo(grid_size*i+0.5, 3);
-//     ctx.stroke();
-
-//     // Text value at that point
-//     ctx.font = '9px Arial';
-//     ctx.textAlign = 'start';
-//     ctx.fillText(x_axis_starting_point.number*i + x_axis_starting_point.suffix, grid_size*i-2, 15);
-// }
-
-// // Ticks marks along the negative X-axis
-// for(i=1; i<y_axis_distance_grid_lines; i++) {
-//     ctx.beginPath();
-//     ctx.lineWidth = 1;
-//     ctx.strokeStyle = "#000000";
-
-//     // Draw a tick mark 6px long (-3 to 3)
-//     ctx.moveTo(-grid_size*i+0.5, -3);
-//     ctx.lineTo(-grid_size*i+0.5, 3);
-//     ctx.stroke();
-
-//     // Text value at that point
-//     ctx.font = '9px Arial';
-//     ctx.textAlign = 'end';
-//     ctx.fillText(-x_axis_starting_point.number*i + x_axis_starting_point.suffix, -grid_size*i+3, 15);
-// }
-
-// // Ticks marks along the negative Y-axis
-// for(i=1; i<( x_axis_distance_grid_lines); i++) {
-//     ctx.beginPath();
-//     ctx.lineWidth = 1;
-//     ctx.strokeStyle = "#000000";
-
-//     // Draw a tick mark 6px long (-3 to 3)
-//     ctx.moveTo(-3, grid_size*i+0.5);
-//     ctx.lineTo(3, grid_size*i+0.5);
-//     ctx.stroke();
-
-//     // Text value at that point
-//     ctx.font = '9px Arial';
-//     ctx.textAlign = 'start';
-//     ctx.fillText(-y_axis_starting_point.number*i + y_axis_starting_point.suffix, 8, grid_size*i+3);
-// }
-
-// // Ticks marks along the positive Y-axis
-// for(i=1; i<(num_lines_x - x_axis_distance_grid_lines); i++) {
-//     ctx.beginPath();
-//     ctx.lineWidth = 1;
-//     ctx.strokeStyle = "#000000";
-
-//     // Draw a tick mark 6px long (-3 to 3)
-//     ctx.moveTo(-3, -grid_size*i+0.5);
-//     ctx.lineTo(3, -grid_size*i+0.5);
-//     ctx.stroke();
-
-//     // Text value at that point
-//     ctx.font = '9px Arial';
-//     ctx.textAlign = 'start';
-//     ctx.fillText(y_axis_starting_point.number*i + y_axis_starting_point.suffix, 8, -grid_size*i+3);
-//     ctx.beginPath();
-//     // ctx.arc(2*grid_size, -4*grid_size, 3, 0, 2 * Math.PI);
-//     ctx.fill();
-// ctx.moveTo(-10*grid_size, 10*grid_size);
-// ctx.lineTo(15*grid_size, -15*grid_size);
-// ctx.moveTo(15*grid_size, 15*grid_size);
-// ctx.lineTo(-15*grid_size, -15*grid_size);
-
-// // Draw the Path
-// ctx.stroke();
+function p2que4(){
+  
+      const selected = document.getElementById("vectorSelect4").value;
+  const result = document.getElementById("p2result4");
+  if(selected === "a"){
+    result.textContent = "Please select the option!";
+    result.style.color = "blue";
+  }
+else{
+  if (selected === "b") {
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! <br> An eigenvector is given by (-x, x), x ≠ 0, x ∈ R.";
+    result.style.color = "green";
+   
+  } else {
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! <br> An eigenvector is given by (-x, x), x ≠ 0, x ∈ R.";
+    result.style.color = "red";
     
-// }
-// function exmp1(){
-// 		let x1=parseFloat(document.getElementById('x1').value);
-// 		let y1=parseFloat(document.getElementById('y1').value);
-// 		document.getElementById('exmp1res').innerHTML="T("+x1+", "+y1+") = <span style='color:red;'>("+y1+", "+x1+")</span>";
-// 		ctx.beginPath();
-// 	    ctx.arc(y1*grid_size, -x1*grid_size, 3, 0, 2 * Math.PI);
-	    
-// 	    ctx.fillStyle = "red";
-// 	    ctx.fill();
-// 	}
+  }}
+}

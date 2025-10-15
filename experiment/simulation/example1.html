@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" href="css/style2.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+      <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="./js/script.js"></script>
+    
+<style>
+
+    #p2result0, #p2result, #p2result1, #p2result2, #p2result3, #p2result4, #p2result5{
+font-size: 1.3rem;
+    }
+.subbtn{
+    background-color: #4af43d;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 1.4rem;
+}
+
+ .subbtn3{
+        height:auto;
+        width:auto;
+        background-color:#81cdc6;
+        font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        border: 1px solid teal;
+        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+	<h2 class="pagehead">Example 1</h2>
+	<div class="container">
+
+	
+    	<p id="exmpp" >T:R<sup>2</sup> &rarr; R<sup>2</sup><br>T(x, y) = (y, x), (x,y)&isin;R<sup>2</sup></p>
+
+        <button class="subbtn"  onclick="eValues()"><b>Eigen Values </b></button><br>
+		<ul  id="eval" style="display:;"><li>Eigenvalues of T are <select name="" id="valSelect0">
+            
+            <option value="a">--Select--</option>
+            <option value="b">2 & 1</option>
+            <option value="c">1 & -1</option>
+            <option value="d">1 & 0</option>
+            <option value="e">1 & 1</option>
+        </select> <button class="subbtn3" type="submit" id="mulx"  onclick="p2que0()">Submit</button></li>
+    <p id="p2result0"></p>
+</ul>
+       
+
+        <button class="subbtn"  onclick="eVector()"><b>Eigen Vectors </b></button><br>
+        <ul><li><b>Corresponding to eigenvalue 1</b></li>
+            <ul>
+            <li><p id="evector" style="display:;"><select name="" id="vectorSelect1">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(2, 1)</option>
+            <option value="c">(1, 1)</option>
+            <option value="d">(1, 2)</option>
+            <option value="e">(-1, 1)</option>
+        </select> is an eigenvector
+    <button class="subbtn3" type="submit" id="mulx"  onclick="p2que1()">Submit</button></li>
+    <p id="p2result1"></p>
+
+        <li>In general, an eigenvector is <select name="" id="vectorSelect2">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(-x, x), x ≠ 0, x ∈ R</option>
+            <option value="c">(x, -x), x = 0, -x ∈ R</option>
+            <option value="d">(x, x), x ≠ 0, x ∈ R</option>
+            <option value="e">(x, -x), x ≠ 0, x ∈ R</option>
+        </select>
+    <button class="subbtn3" type="submit" id="mulx"  onclick="p2que2()">Submit</button></li>
+<p id="p2result2"></p>
+</ul>
+<li><b>Corresponding to eigenvalue -1</b></li>
+       <ul> <li><p id="evector" style="display:;"><select name="" id="vectorSelect3">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(1, -1)</option>
+            <option value="c">(1, 1)</option>
+            <option value="d">(-1, -1)</option>
+            <option value="e">(-1, 1)</option>
+        </select> is an eigenvector. <button class="subbtn3" type="submit" id="mulx"  onclick="p2que3()">Submit</button></li>
+        <p id="p2result3"></p>
+
+        <li>In general, an eigenvector is <select name="" id="vectorSelect4">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(-x, x), x ≠ 0, x ∈ R</option>
+            <option value="c">(x, -x), x ∈ R</option>
+            <option value="d">(x, x), x ≠ 0, x ∈ R</option>
+            <option value="e">(x, x), x = 0, x ∈ R</option>
+        </select>
+    <button class="subbtn3" type="submit" id="mulx"  onclick="p2que4()">Submit</button></li>
+    <p id="p2result4"></p>
+    </ul>
+    </ul>
+		
+		<p style="background-color: yellowgreen; font-size: 28PX; text-align: center; border: 1px solid;">Visualization</p>
+		<img id="exmp1" src="images/visualimg1.PNG" style="height: auto; width:37rem;">
+            
+		
+		
+	</div>
+
+     <p style="float: center; align-content:right;">
+<a href="index.html" class="previous">&laquo; Previous</a></p>
+
+<p style="float: center; align-content:right;">
+<a href="eVeceValMatrix.html" class="next" >Next &raquo;</a></p>
+</body>
+<script type="text/javascript">
+	
+
+
+    function exmple(){
+        document.getElementById('exmpp').style.display="";
+    }
+
+    function matX(){
+        document.getElementById('matrix').style.display="";
+    }
+    function visual(){
+        document.getElementById('lambdaxt').style.display="";
+    }
+    function eVector(){
+        document.getElementById('evector').style.display="";
+    }
+    
+    function eValues(){
+        document.getElementById('eval').style.display="";
+    }
+    function chEqe(){
+        document.getElementById('cheqe').style.display="";
+    }
+   
+</script>
+</html>
