@@ -26,7 +26,7 @@ $$
 \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}.
 $$
 
-Thus 2<i>x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y),where  0≠y&isin;R.
+Thus 2<i>x</i>+8<i>y</i>=0 and <i>x</i>+4<i>y</i>=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y),where  0≠y&isin;R.
 
 $$
 \begin{aligned}
