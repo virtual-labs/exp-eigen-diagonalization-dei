@@ -1,9 +1,10 @@
-Matrices considered in this experiment have real entries. An n×1 matrix is called a column vector. Its transpose is a 1×n matrix called a row vector and it is also an element of R<sup>n</sup>. These are used interchangeably as and when needed.
+This experiment deals with the study of eigenvalues and eigenvectors of a matrix and helps the users to understand their significance in the context of linear transformations. Students will learn how to compute eigenvalues and eigenvectors, interpret their geometric meaning, and see how they describe the scaling or directional behaviour of a transformation.<br>
+Matrices considered in this experiment have real entries. An <i>n</i>×1 matrix is called a column vector. Its transpose is a 1×<i>n</i> matrix called a row vector and it is also an element of <i>R</i><sup><i>n</i></sup>. These are used interchangeably as and when needed.
 #### 1. Characteristic polynomial and characteristic equation of a matrix:
-The characteristic polynomial of a matrix A of order n×n is defined as |A-λI|, where λ&isin;R, I is the identity matrix and |A-λI| denotes the determinant of (A-λI). Clearly, degree of the characteristic polynomial is n. Characteristic polynomial of A is denoted by f(λ). The equation f(λ)=0, i.e. |A-λI|=0 is called the characteristic equation.
+The characteristic polynomial of a matrix <i>A</i> of order n×n is defined as |<i>A</i>-<i>λI</i>|, where <i>λ</i>&isin;<i>R</i>, <i>I</i> is the identity matrix and |<i>A</i>-<i>λI</i>| denotes the determinant of (<i>A</i>-<i>λI</i>). Clearly, degree of the characteristic polynomial is <i>n</i>. Characteristic polynomial of <i>A</i> is denoted by <i>f</i>(<i>λ</i>). The equation <i>f</i>(<i>λ</i>)=0, i.e. |<i>A</i>-<i>λI</i>|=0 is called the characteristic equation.
 
 #### 2. Eigenvalues and eigenvectors of a matrix: 
-Let A be a matrix of order n×n. Then λ&isin;R is called an eigenvalue of A, if there exists a column vector i.e. an n×1matrix X≠0 such that AX=λX and X is called an eigenvector corresponding to the eigenvalue λ.
+Let <i>A</i> be a matrix of order <i>n</i>×<i>n</i>. Then <i>λ</i>&isin;<i>R</i> is called an eigenvalue of <i>A</i>, if there exists a column vector i.e. an <i>n</i>×1matrix <i>X</i>≠0 such that <i>AX</i>=<i>λX</i> and <i>X</i> is called an eigenvector corresponding to the eigenvalue <i>λ</i>.
 
 #### 3. Examples:
 
@@ -13,19 +14,19 @@ $$
 \end{aligned}
 $$
 
-To find the eigenvalues of A, consider the characteristic equation |A-λI|=0, This gives (1-λ)(3-λ)-8=0, which implies λ=5 and -1. Thus the eigenvalues of A are 1 and 3. To find eigenvectors of A for λ=5, consider (A-5.I)X=0. This gives
+To find the eigenvalues of <i>A</i>, consider the characteristic equation |<i>A</i>-<i>λI</i>|=0, This gives (1-<i>λ</i>)(3-<i>λ</i>)-8=0, which implies <i>λ</i>=5 and -1. Thus the eigenvalues of <i>A</i> are 1 and 3. To find eigenvectors of <i>A</i> for <i>λ</i>=5, consider (<i>A</i>-5.<i>I</i>)<i>X</i>=0. This gives
 
 $$
 \begin{pmatrix} -4 & 8 \\\ 1 & -2 \end{pmatrix} \begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}
 $$
 
-Thus -4x+8y=0 and x-2y=0 which implies that x=2y. So, the eigenvectors corresponding to λ=5 are (2y, y), where 0≠y&isin;R. To find eigenvectors of A for λ=-1, consider (A-(-1).I)X=0. This gives
+Thus -4<i>x</i>+8<i>y</i>=0 and <i>x</i>-2<i>y</i>=0 which implies that <i>x</i>=2<i>y</i>. So, the eigenvectors corresponding to <i>λ</i>=5 are (2<i>y</i>, <i>y), where 0≠<i>y</i>&isin;<i>R</i>. To find eigenvectors of <i>A</i> for <i>λ</i>=-1, consider (<i>A</i>-(-1).I)<i>X</i>=0. This gives
 
 $$
 \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}.
 $$
 
-Thus 2x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y),where  0≠y&isin;R.
+Thus 2<i>x+8y=0 and x+4y=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y),where  0≠y&isin;R.
 
 $$
 \begin{aligned}
