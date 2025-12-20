@@ -20,7 +20,7 @@ $$
 \begin{pmatrix} -4 & 8 \\\ 1 & -2 \end{pmatrix} \begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}
 $$
 
-Thus -4<i>x</i>+8<i>y</i>=0 and <i>x</i>-2<i>y</i>=0 which implies that <i>x</i>=2<i>y</i>. So, the eigenvectors corresponding to <i>λ</i>=5 are (2<i>y</i>, <i>y), where 0≠<i>y</i>&isin;<i>R</i>. To find eigenvectors of <i>A</i> for <i>λ</i>=-1, consider (<i>A</i>-(-1).I)<i>X</i>=0. This gives
+Thus -4<i>x</i>+8<i>y</i>=0 and <i>x</i>-2<i>y</i>=0 which implies that <i>x</i>=2<i>y</i>. So, the eigenvectors corresponding to <i>λ</i>=5 are (2<i>y</i>, <i>y</i>), where 0≠<i>y</i>&isin;<i>R</i>. To find eigenvectors of <i>A</i> for <i>λ</i>=-1, consider (<i>A</i>-(-1).I)<i>X</i>=0. This gives
 
 $$
 \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}.
