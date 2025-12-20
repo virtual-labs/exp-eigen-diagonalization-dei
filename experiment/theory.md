@@ -6,7 +6,7 @@ The characteristic polynomial of a matrix <i>A</i> of order n×n is defined as |
 #### 2. Eigenvalues and eigenvectors of a matrix: 
 Let <i>A</i> be a matrix of order <i>n</i>×<i>n</i>. Then <i>λ</i>&isin;<i>R</i> is called an eigenvalue of <i>A</i>, if there exists a column vector i.e. an <i>n</i>×1matrix <i>X</i>≠0 such that <i>AX</i>=<i>λX</i> and <i>X</i> is called an eigenvector corresponding to the eigenvalue <i>λ</i>.
 
-#### 3. Examples:
+#### 3. Example:
 
 $$
 \begin{aligned}
