@@ -1,1 +1,1 @@
-To study the eigenvalues and eigenvectors of a matrix and a linear transformation.  
+The aim is to study the eigenvalues of matrices and linear transformations and relationship between the two. A similar study has been carried out for eigenvectors also.
