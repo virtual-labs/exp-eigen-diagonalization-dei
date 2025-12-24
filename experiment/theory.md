@@ -26,7 +26,7 @@ $$
 \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}.
 $$
 
-Thus 2<i>x</i>+8<i>y</i>=0 and <i>x</i>+4<i>y</i>=0 which implies that x=-4y. So, the eigenvector corresponding to λ=-1 are (-4y, y),where  0≠y&isin;R.
+Thus 2<i>x</i>+8<i>y</i>=0 and <i>x</i>+4<i>y</i>=0 which implies that <i>x</i>=-4<i>y</i>. So, the eigenvector corresponding to <i>λ</i>=-1 are (-4<i>y</i>, <i>y</i>),where  0≠<i>y</i>&isin;<i>R</i>.
 
 $$
 \begin{aligned}
@@ -34,7 +34,7 @@ $$
 \end{aligned}
 $$
 
-To find the eigenvalues of A, consider the characteristic equation |A-λI|=0. 
+To find the eigenvalues of <i>A</i>, consider the characteristic equation |<i>A</i>-<i>λI</i>|=0. 
 
 $$
 \begin{aligned}
@@ -44,7 +44,7 @@ $$
 $$
 
 
-This gives (1-λ)(2-λ)2=0, which implies λ=1, 2 and 2. Thus the eigenvalues of A are 1, 2 and 2. To find eigenvectors of A for λ=1, consider (A-1.I)X=0. This gives 
+This gives (1-<i>λ</i>)(2-<i>λ</i>)2=0, which implies <i>λ</i>=1, 2 and 2. Thus the eigenvalues of <i>A</i> are 1, 2 and 2. To find eigenvectors of <i>A</i> for <i>λ</i>=1, consider (<i>A</i>-1.<i>I</i>)<i>X</i>=0. This gives 
 
 $$
 \begin{aligned}
@@ -52,7 +52,7 @@ $$
 \end{aligned}
 $$
 
-Thus 2y+z=0, 2y=0 and y+z=0 which imply that y=0 and z=0. So, the eigenvectors corresponding to λ=1 are (x, 0, 0), where 0≠x&isin;R. To find eigenvectors of A for λ=2, consider (A-2.I)X=0. This gives 
+Thus 2<i>y</i>+<i>z</i>=0, 2<i>y</i>=0 and <i>y</i>+<i>z</i>=0 which imply that <i>y</i>=0 and <i>z</i>=0. So, the eigenvectors corresponding to <i>λ</i>=1 are (<i>x</i>, 0, 0), where 0≠<i>x</i>&isin;<i>R</i>. To find eigenvectors of <i>A</i> for <i>λ</i>=2, consider (<i>A</i>-2.<i>I</i>)X=0. This gives 
 
 $$
 \begin{aligned}
@@ -60,32 +60,32 @@ $$
 \end{aligned}
 $$
 
-Thus x+2y+z=0, y=0 and y+z=0 which implies that x=-z. So, the eigenvector corresponding to λ=2 are (x, 0, -x), where 0≠x&isin;R.
+Thus <i>x</i>+2<i>y</i>+<i>z</i>=0, <i>y</i>=0 and <i>y</i>+<i>z</i>=0 which implies that <i>x</i>=-<i>z</i>. So, the eigenvector corresponding to <i>λ</i>=2 are (<i>x</i>, 0, -<i>x</i>), where 0≠<i>x</i>&isin;<i>R</i>.
 
 
 #### 4. Eigenvalues and eigenvectors of a linear transformation: 
-Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then λ&isin;R is called an eigenvalue of, T if there exists x&isin;V such that x≠0 and T(x)=λx. Such an x is called an eigenvector corresponding to the eigenvalue λ.
+Let <i>V</i> be a finite dimensional vector space over the field <i>R</i> and let <i>T</i>: <i>V</i>→<i>V</i> be a linear transformation. Then <i>λ</i>&isin;<i>R</i> is called an eigenvalue of, <i>T</i> if there exists <i>x</i>&isin;<i>V</i> such that <i>x</i>≠0 and <i>T</i>(<i>x</i>)=<i>λx</i>. Such an <i>x</i> is called an eigenvector corresponding to the eigenvalue <i>λ</i>.
 ####  5. Eigen space of a linear transformation: 
-Let V be a finite dimensional vector space over the field R. Let T: V→V be a linear transformation and λ&isin;R be an eigenvalue of T. Then E<sub>λ</sub>≡{x&isin;V|T(x)=λx} is called the eigen space corresponding to λ. Clearly, E<sub>λ</sub> consists of all the eigen vectors and the zero vector. Note that E<sub>λ</sub> is a subspace of V.
+Let <i>V</i> be a finite dimensional vector space over the field <i>R</i>. Let <i>T</i>: <i>V</i>→<i>V</i> be a linear transformation and <i>λ</i>&isin;<i>R</i> be an eigenvalue of <i>T</i>. Then <i>E</i><sub><i>λ</i></sub>≡{<i>x</i>&isin;<i>V</i>|<i>T</i>(<i>x</i>)=<i>λx</i>} is called the eigen space corresponding to <i>λ</i>. Clearly, <i>E</i><sub>λ</sub> consists of all the eigen vectors and the zero vector. Note that <i>E</i><sub><i>λ</i></sub> is a subspace of <i>V</i>.
 #### 6. Finding eigenvalues and eigenvectors of a linear transformation:
-Let V be a finite dimensional vector space over the field R and let T: V→V be a linear transformation. Then to find the eigenvalue and eigenvector of T, consider a matrix representation A associated to the linear transformation T w.r.t. the standard basis. Eigenvalues and eigenvectors of the matrix A are same as that of linear transformation T.
+Let <i>V</i> be a finite dimensional vector space over the field <i>R</i> and let <i>T</i>: <i>V</i>→<i>V</i> be a linear transformation. Then to find the eigenvalue and eigenvector of <i>T</i>, consider a matrix representation <i>A</i> associated to the linear transformation <i>T</i> w.r.t. the standard basis. Eigenvalues and eigenvectors of the matrix <i>A</i> are same as that of linear transformation <i>T</i>.
 #### 7. Example:
-Let T:R<sup>2</sup>→R<sup>2</sup> be a linear transformation such that T(x, y)=(y, x), where x, y&isin;R. Then to find the eigenvalues and eigenvectors of T, consider the matrix representation given by
+Let <i>T</i>:<i>R</i><sup>2</sup>→<i>R</i><sup>2</sup> be a linear transformation such that <i>T</i>(<i>x, y</i>)=(<i>y, x</i>), where <i>x, y</i>&isin;<i>R</i>. Then to find the eigenvalues and eigenvectors of <i>T</i>, consider the matrix representation given by
 
 $$
  \begin{pmatrix} 0 & 1 \\\ 1 & 0 \end{pmatrix}.
 $$
 
-associated to the linear transformation T w.r.t. the basis of R<sup>2</sup>. Thus the eigenvalues of T are obtained from the characteristic equation |A-λI|=0 which implies that λ=1 and -1 are the eigenvalues of T. <br>
-To find eigenvectors of T for λ=1, we solve the equation T(x, y)=(x, y) which implies that (y, x)=(x, y). Thus y=x. So, the eigenvectors corresponding to λ=1 are (x, x), where 0≠x&isin;R and eigen space is E<sub>1</sub>={(x, x), where x&isin;R}. <br>
- To find eigenvectors of T for λ=-1, we solve the equation T(x, y)=-1(x, y), which implies that (y, x)=-1(x, y). Thus y=-x. So, the eigenvector corresponding to λ=-1 are (x, -x), where 0≠x&isin;R and its eigen space is E<sub>-1</sub>={(x, -x), where x&isin;R}.
+associated to the linear transformation <i>T</i> w.r.t. the basis of <i>R</i><sup>2</sup>. Thus the eigenvalues of <i>T</i> are obtained from the characteristic equation |<i>A</i>-<i>λI</i>|=0 which implies that <i>λ</i>=1 and -1 are the eigenvalues of <i>T</i>. <br>
+To find eigenvectors of <i>T</i> for <i>λ</i>=1, we solve the equation <i>T</i>(<i>x, y</i>)=(<i>x, y</i>) which implies that (<i>y, x</i>)=(<i>x, y</i>). Thus <i>y</i>=<i>x</i>. So, the eigenvectors corresponding to <i>λ</i>=1 are (<i>x, x</i>), where 0≠<i>x</i>&isin;<i>R</i> and eigen space is <i>E</i><sub>1</sub>={(<i>x, x</i>), where <i>x</i>&isin;<i>R</i>}. <br>
+To find eigenvectors of <i>T</i> for <i>λ</i>=-1, we solve the equation <i>T</i>(<i>x, y</i>)=-1(<i>x, y</i>), which implies that (<i>y, x</i>)=-1(<i>x, y</i>). Thus <i>y</i>=-<i>x</i>. So, the eigenvector corresponding to <i>λ</i>=-1 are (<i>x, -x</i>), where 0≠<i>x</i>&isin;<i>R</i> and its eigen space is <i>E</i><sub>-1</sub>={(<i>x, -x</i>), where <i>x</i>&isin;<i>R</i>}.
 
 #### 8. Properties of eigenvalue and eigenvector:
-Let A be matrix of order n×n and T: R<sup>n</sup>→R<sup>n</sup>.<br>
-(i.) Number of eigenvalues of a matrix A is less than or equal to n. <br>
-(ii.) If 0 is an eigenvalue of a matrix A or a linear transformation T, then the matrix A or the linear transformation T is singular.<br>
-(iii.) If x is an eigenvector of a matrix A or a linear transformation T corresponding to an eigenvalue λ, then αx, where α≠0 is also an eigenvector corresponding to the eigenvalue λ<br>
-(iv.) If x and y are eigenvectors corresponding to an eigenvalue λ of a matrix A or a linear transformation T and -x≠y, then x+y is an eigenvector corresponding to the eigenvalue λ.
+Let <i>A</i> be matrix of order <i>n</i>×<i>n</i> and <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>n</i></sup>.<br>
+(i.) Number of eigenvalues of a matrix <i>A</i> is less than or equal to <i>n</i>. <br>
+(ii.) If 0 is an eigenvalue of a matrix <i>A</i> or a linear transformation <i>T</i>, then the matrix <i>A</i> or the linear transformation <i>T</i> is singular.<br>
+(iii.) If <i>x</i> is an eigenvector of a matrix <i>A</i> or a linear transformation <i>T</i> corresponding to an eigenvalue <i>λ</i>, then <i>αx</i>, where <i>α</i>≠0 is also an eigenvector corresponding to the eigenvalue <i>λ</i><br>
+(iv.) If <i>x</i> and <i>y</i> are eigenvectors corresponding to an eigenvalue <i>λ</i> of a matrix <i>A</i> or a linear transformation <i>T</i> and -<i>x</i>≠<i>y</i>, then <i>x</i>+<i>y</i> is an eigenvector corresponding to the eigenvalue <i>λ</i>.
 
 ####  9. Diagonalizability:
 Definition: A matrix A of order n×n is said to be diagonalizable if its eigenvectors form a basis of the vector space R<sup>n</sup> over R. <br>
