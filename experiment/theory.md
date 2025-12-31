@@ -88,11 +88,11 @@ Let <i>A</i> be matrix of order <i>n</i>×<i>n</i> and <i>T</i>: <i>R</i><sup><i
 (iv.) If <i>x</i> and <i>y</i> are eigenvectors corresponding to an eigenvalue <i>λ</i> of a matrix <i>A</i> or a linear transformation <i>T</i> and -<i>x</i>≠<i>y</i>, then <i>x</i>+<i>y</i> is an eigenvector corresponding to the eigenvalue <i>λ</i>.
 
 ####  9. Diagonalizability:
-Definition: A matrix A of order n×n is said to be diagonalizable if its eigenvectors form a basis of the vector space R<sup>n</sup> over R. <br>
-(i) Let A be diagonalizable such that λ<sub>1</sub>, λ<sub>2</sub>, λ<sub>3</sub>, …, λ<sub>n</sub> are its eigenvalues and B={x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, …, x<sub>n</sub>} is a basis of R<sup>n</sup>, where x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, …, x<sub>n</sub> are the corresponding eigenvectors. Let T: R<sup>n</sup>→R<sup>n</sup> be the linear transformation associated with the matrix A w.r.t. the standard basis of R<sup>n</sup>. Then matrix of T w.r.t. B is the diagonal matrix D having eigenvalues λ<sub>1</sub>, λ<sub>2</sub>, λ<sub>3</sub>, …, λ<sub>n</sub> as its diagonal entries. <br>
-In such a case A and D are called similar. <br>
-(ii) If a matrix A of order n×n has n distinct eigenvalues, then A is diagonalizable.<br>
-Note: If a matrix A of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 9(ii) below.
+Definition: A matrix <i>A</i> of order <i>n</i>×<i>n</i> is said to be diagonalizable if its eigenvectors form a basis of the vector space <i>R</i><sup><i>n</i></sup> over <i>R</i>. <br>
+(i) Let <i>A</i> be diagonalizable such that <i>λ</i><sub>1</sub>, <i>λ</i><sub>2</sub>, <i>λ</i><sub>3</sub>, …, <i>λ</i><sub><i>n</i></sub> are its eigenvalues and <i>B</i>={<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, …, <i>x</i><sub><i>n</i></sub>} is a basis of <i>R</i><sup><i>n</i></sup>, where <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, …, <i>x</i><sub><i>n</i></sub> are the corresponding eigenvectors. Let <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>n</i></sup> be the linear transformation associated with the matrix <i>A</i> w.r.t. the standard basis of <i>R</i><sup><i>n</i></sup>. Then matrix of <i>T</i> w.r.t. <i>B</i> is the diagonal matrix <i>D</i> having eigenvalues <i>λ</i><sub>1</sub>, <i>λ</i><sub>2</sub>, <i>λ</i><sub>3</sub>, …, <i>λ</i><sub><i>n</i></sub> as its diagonal entries. <br>
+In such a case <i>A</i> and <i>D</i> are called similar. <br>
+(ii) If a matrix <i>A</i> of order <i>n</i>×<i>n</i> has <i>n</i> distinct eigenvalues, then <i>A</i> is diagonalizable.<br>
+Note: If a matrix <i>A</i> of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 9(<i>ii</i>) below.
 
 #### 10. Examples:
 $$
@@ -101,8 +101,8 @@ $$
 \end{aligned}
 $$
 
-Clearly, its eigenvalues are λ=1 and 2. Thus the matrix A of order 2×2 has 2 distinct eigenvalues, Furthermore, the eigenvectors (0, 1) and (1, 1) of A form a basis of R<sup>2</sup>. 
-Hence A is a diagonalizable matrix as it is similar to 
+Clearly, its eigenvalues are <i>λ</i>=1 and 2. Thus the matrix A of order 2×2 has 2 distinct eigenvalues, Furthermore, the eigenvectors (0, 1) and (1, 1) of <i>A</i> form a basis of R<sup>2</sup>. 
+Hence <i>A</i> is a diagonalizable matrix as it is similar to 
 
 $$
 \begin{aligned}
@@ -110,7 +110,7 @@ $$
 &\hspace{-9.2cm} \text{ii.) Let A= }\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}.
 \end{aligned}
 $$
- Clearly, its eigenvalues are λ=1, 1 and -1, which are not all distinct. Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of A form a basis of R<sup>3</sup>. Hence A is a diagonalizable matrix as it is similar to the matrix 
+Clearly, its eigenvalues are <i>λ</i>=1, 1 and -1, which are not all distinct. Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of <i>A</i> form a basis of R<sup>3</sup>. Hence A is a diagonalizable matrix as it is similar to the matrix 
 $$
 \begin{aligned}
 &\hspace{-3cm} \text{D= } \begin{pmatrix} 1 & 0 & 0 \\\ 0 & -1 & 0 \\\ 0 & 0 & 1 \end{pmatrix}.
