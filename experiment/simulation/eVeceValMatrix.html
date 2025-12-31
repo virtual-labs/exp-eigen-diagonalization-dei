@@ -13,48 +13,47 @@
 	<link rel="stylesheet" href="css/style3.css">
 	<script src="script2.js"></script>
 	<script src="js/evevalscript.js"></script>
+<style>
+	.label{
+    display: inline-block;
+    width: 120px;   /* jitni jagah chahiye label ko */
+}
 
+.content{
+    display: inline-block;
+    vertical-align: top;
+}
+
+</style>
 	</head>
-	<style>
-		.evaldiv{
-        display: flex;
-         align-items: center;
-
-    }
-	</style>
+	
 	<body>
 		<h2 class="pagehead">Example 2</h2>
 	<div class="container">
 		
-	<p style="margin-bottom: 0px;">Enter the values of a, c and d to choose matrix A</p>
-	<p style="color: blue; font-size: 20px; margin-top: 5px;"><b>Note:</b> For convinence of calculations "b" has been fixed to be "0"</p>
-	<label for="a">a:</label>
+	<p style="margin-bottom: 0px;">Enter the values of <i>a, c</i> and <i>d</i> to choose matrix <i>A</i></p>
+	<p style="color: blue; font-size: 20px; margin-top: 5px;"><b>Note:</b> For convinence of calculations "<i>b</i>" has been fixed to be "0"</p>
+	<label for="a"><i>a</i>:</label>
 	<input type="number" id="a" class="basisinput" step="any">
-	<label for="b">b:</label>	
+	<label for="b"><i>b</i>:</label>	
 	<input type="number" id="b" value="0" class="basisinput" step="any" disabled><br>
-	<label for="c">c:</label>
+	<label for="c"><i>c</i>:</label>
 	<input type="number" id="c" class="basisinput" step="any">
-	<label for="d">d:</label>
+	<label for="d"><i>d</i>:</label>
 	<input type="number" id="d" class="basisinput" step="any"><br>
 	
 	<button id="subbtn" style="background-color: rgb(144, 180, 246); margin: 20px;" class="subbtn" onclick="smatrix()">Submit</button>
 	<p id="mat"></p>
-	<button class="subbtn"  onclick="chEqe()" style="background-color: yellowgreen;"><span class="btnhead">Eigenvalues</span></button><br>
-	<!-- <button class="subbtn" id="cheqbtn" style="display: none;" >Charcteristics Equation</button> -->
-	<p id="cheqhead" ></p><br>
+	<button class="subbtn"  onclick="chEqe()" style="background-color: yellowgreen;"><span class="btnhead">Eigenvalues</span></button>
+	
+	<p id="cheqhead" style="display: none;" >Charcteristic Equation:</p>
 	<p id="cheqe"></p>
-	
-	<div class="evaldiv">
-		<p id="cheqe0.1"></p>
-		<p id="cheqe1" style="margin-left: 1vh; text-align: center;"></p>
-	
-		</div>
-		<p id="cheqe2" ></p>
-		<p id="res1.01" style="display: none;">&emsp;Eigenvalues:</p><br>
-		<p id="result1.1" style="margin: 0;"></p>
-		<p id="result1.11" style="font-size: 21px; margin-top: 0px;"></p>
+	<p id="res1" style="display:none;">
+    <span class="label">Eigenvalues:</span>
+    <span id="result1_1" class="content"></span>
+	</p>
+
 		
-		<p id="lamvalss"></p>
 	
 	<button id="res2btn" class="subbtn" " onclick="eigenVector()"><span class="btnhead">Eigenvectors</span></button><br>
 
@@ -62,7 +61,7 @@
 	
 	<p id="expln"></p>
 	
-	<button id="lam1" class="subbtn" style="display: none; background: none; border: 0; font-size: 22px;"><b>Eigenvectors for &lambda; <sub>1</sub> = <span id="lam1val"></span></b></button>
+	<button id="lam1" style="display: none; background: none; border: 0; font-size: 22px;"><b>Eigenvectors for &lambda; <sub>1</sub> = <span id="lam1val"></span></b></button>
 	
 	<p id="see-exp" style="margin-left: 50px;"></p> 
 	<p id="matexp" style="margin-left: 50px;"></p>
@@ -77,7 +76,7 @@
 	<p id="matexp2" style="margin-left: 50px;"></p>
 	<p id="ttl2" style="margin-left: 50px;"></p>
 	
-	</span>
+	
 	<p style="color: blue; font-size: 20px; margin-top: 5px;"><b>Note:</b> Eigenvalues and eigenvectors of a square matrix are visualized through the eigenvalues and eigenvectors of the linear transformation associated with the given matrix. </p>
 	</div>
 	<p style="float: center; align-content:right;">

@@ -9,6 +9,12 @@
                 "c": "$(\\lambda - 2)^2$ and $2$ only",
                 "d": "$(2 - \\lambda)^2$ and $-2$ only"
             },
+             "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Correct. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
+            },
             "correctAnswer": "c",
             "difficulty": "beginner"
         },
@@ -19,6 +25,12 @@
                 "b": "-1, 1 and 1",
                 "c": "1, -1 and 0",
                 "d": "0, 1 and 2"
+            },
+              "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Correct. Follows by definition."
             },
             "correctAnswer": "d",
             "difficulty": "beginner"
@@ -31,6 +43,12 @@
                 "c": "No eigenvalue",
                 "d": "Atmost 2 eigenvalue only"
             },
+        "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Correct. Follows by definition."
+            },
             "correctAnswer": "d",
             "difficulty": "beginner"
         },
@@ -41,6 +59,12 @@
                 "b": "$E_{\\alpha} \\subseteq E_{\\mu}$",
                 "c": "$x \notin E_{\\alpha} \\cap E_{\\mu}$, if $x \neq 0$",
                 "d": "$x \notin E_{\\alpha} \\cap E_{\\mu}$, if $x \\eq 0$"
+            },
+            "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Correct. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
             },
             "correctAnswer": "c",
             "difficulty": "beginner"
@@ -53,6 +77,12 @@
                 "c": "$(-x, 0)$, where $x \\in \\mathbb{R}$",
                 "d": "$(-x, 2x)$, where $x \\in \\mathbb{R}$"
             },
+            "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Correct. Follows by definition."
+            },
             "correctAnswer": "d",
             "difficulty": "beginner"
         },
@@ -64,6 +94,12 @@
                 "c": "{$(1, 0)x$: where $x \\in \\mathbb{R}$}",
                 "d": "$\\mathbb{R}^2$"
             },
+            "explanations": {
+                "a": "Correct. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
+            },
             "correctAnswer": "a",
             "difficulty": "beginner"
         },
@@ -74,6 +110,12 @@
                 "b": "$x+y$ is an eigenvector corresponding to both the eigenvalues $1$ and $2$",
                 "c": "$2x$ is an eigenvector corresponding to the eigenvalue $1$ and $y+2$ is not an eigenvector corresponding to the eigenvalue $2$",
                 "d": "$2x$ is not an eigenvector corresponding to the eigenvalue $1$ and $y+2$ is an eigenvector corresponding to the eigenvalue $2$"
+            },
+            "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Correct. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
             },
             "correctAnswer": "c",
             "difficulty": "beginner"

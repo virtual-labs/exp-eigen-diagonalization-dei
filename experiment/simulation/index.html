@@ -2,73 +2,12 @@
 <html lang="en">
 	<link rel="stylesheet" href="css/style2.css">
     <script src="./js/script.js"></script>
-<style>
-    #lambdax{
-    width:35rem;
-}
-#lambdaxt{
-    width:35rem;
-}
 
-.subbtn{
-        height:auto;
-        width:auto;
-        background-color:#4af43d;
-        font-size: 1.5rem;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 600;
-        border: 1px solid rgb(0, 0, 0);
-        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
-        cursor: pointer;
-    }
-    .subbtn1{
-        height:auto;
-        width:auto;
-        background-color:#12ff69;
-        font-size: 1.8rem;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 600;
-        border: 1px solid teal;
-        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
-    }
-    .subbtn2{
-        height:auto;
-        width:auto;
-        background-color:#81cdc6;
-        font-size: 1.3rem;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 600;
-        border: 1px solid teal;
-        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
-        cursor: pointer;
-    }
-
-    .subbtn3{
-        height:auto;
-        width:auto;
-        background-color:#81cdc6;
-        font-size: 1rem;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 600;
-        border: 1px solid teal;
-        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
-        cursor: pointer;
-    }
-    .subcont, .evevdiv{
-        display: flex;
-         align-items: center;
-    }
-
-    #result, #result1, #result2, #result3, #result4, #result5{
-font-size: 1.3rem;
-    }
-
-</style>
 <body>
 	<h2 class="pagehead">Visualization of concepts</h2>
 	<div class="container">
 
-        <button class="subbtn">Multiples of x&isin;R<sup>2</sup></button><br>
+        <button class="subbtn">Multiples of <i>x</i>&isin;<i>R</i><sup>2</sup></button><br>
 <ul>
     <li><button class="subbtn2" onclick="mulX2()" >Visualization</button></li> 
           <img id="multX" src="images/multX111.png" style="height: 12rem; width:auto; margin-top: 1rem;";>
@@ -79,11 +18,11 @@ font-size: 1.3rem;
             <option value="c">(-1, .5)</option>
             <option value="d">(1/3, 2/3)</option>
             <option value="e">(&radic;2, &radic;2)</option>
-        </select> is a multiple of (1, 1)&isin;R<sup>2</sup>
+        </select> is a multiple of (1, 1)&isin;<i>R</i><sup>2</sup>
 
             <button class="subbtn3" type="submit" id="mulx"  onclick="ques1()">Submit</button></p></li>
          
-        <p id="result"></p>
+        <p class="results" id="result"></p>
         <li><p style="font-size: 1.4rem;"><select name="" id="vectorSelect2">
             
             <option value="a">--Select--</option>
@@ -91,21 +30,21 @@ font-size: 1.3rem;
             <option value="c">(2, -2)</option>
             <option value="d">(1/2, 1/2)</option>
             <option value="e">(&radic;2, &radic;2)</option>
-        </select> is not a multiple of (1, 1)&isin;R<sup>2</sup>
+        </select> is not a multiple of (1, 1)&isin;<i>R</i><sup>2</sup>
             
            <button class="subbtn3" type="submit" id="mulx"  onclick="ques2()">Submit</button></p></li>
-        <p id="result2"></p>
+        <p class="results" id="result2"></p>
         <!-- <button class="subbtn2" >Think</button><br> -->
           </ul>    
 
-<button class="subbtn" id="tx">T(x) &isin;R<sup>2</sup></button><br>
+<button class="subbtn" id="tx"><i>T</i>(<i>x</i>) &isin;<i>R</i><sup>2</sup></button><br>
  <ul style="font-size: 1.4rem;"><li><button class="subbtn2" onclick="txfun()" >Visualization</button></li>
         <img id="tximg" src="images/tx1111.png" style="width: 89vh; height: auto;">
-<li><p style="font-size: 1.4rem;" >T:R<sup>2</sup>&rarr;R<sup>2</sup> be defined by T(a, b) = (2a, 3b), a,b &isin;R</p></li>
+<li><p style="font-size: 1.4rem;" ><i>T</i>:<i>R</i><sup>2</sup>&rarr;<i>R</i><sup>2</sup> be defined by <i>T</i>(<i>a, b</i>) = (2<i>a</i>, 3<i>b</i>), <i>a,b</i> &isin;<i>R</i></p></li>
        
     <ul>       
         <li>
-            <p>For x = (1, 0), T(x) =
+            <p>For <i>x</i> = (1, 0), <i>T</i>(<i>x</i>) =
             
             <select name="" id="vectorSelect3">
             
@@ -117,10 +56,10 @@ font-size: 1.3rem;
         </select>
         <button class="subbtn3" type="submit" id="mulx"  onclick="ques3()">Submit</button></p></li>
          
-        <p id="result3"></p>
+        <p class="results" id="result3"></p>
 
         <li>
-            <p style="font-size: 1.4rem;">For x = (-1, 1), T(x) =
+            <p style="font-size: 1.4rem;">For <i>x</i> = (-1, 1), <i>T</i>(<i>x</i>) =
             
             <select name="" id="vectorSelect4">
             
@@ -132,7 +71,7 @@ font-size: 1.3rem;
         </select>
         <button class="subbtn3" type="submit" id="mulx"  onclick="ques4()">Submit</button></p></li>
          
-        <p id="result4"></p>
+        <p class="results" id="result4"></p>
         </ul>
          </ul><br>
 		
@@ -143,33 +82,33 @@ font-size: 1.3rem;
             <li><button class="subbtn2"  onclick="eveval()" >Visualization</button></li><br>
 
 		<img id="evev" src="images/tx11.png" style="width: 89vh; height: auto;">
-        <li><p style="font-size: 1.4rem;">&lambda;&isin;R and T:R<sup>2</sup>&rarr;R<sup>2</sup> is linear</p></li>
+        <li><p style="font-size: 1.4rem;">&lambda;&isin;<i>R</i> and <i>T</i>:<i>R</i><sup>2</sup>&rarr;<i>R</i><sup>2</sup> is linear</p></li>
     
        <ul>
-        <li><p>&lambda; is an eigenvalue of T, if T(x) = &lambda;x, 
+        <li><p>&lambda; is an eigenvalue of <i>T</i>, if <i>T</i>(<i>x</i>) = &lambda;<i>x</i>, 
             
            <select name="" id="vectorSelect5">
   <option value="a">--Select--</option>
-  <option value="b">for all x ∈ R²</option>
-  <option value="c">for all x ≠ 0, x ∈ R²</option>
-  <option value="d">for some x ≠ 0, x ∈ R²</option>
+  <option value="b">for all 𝑥 ∈ 𝑅²</option>
+  <option value="c">for all 𝑥 ≠ 0, 𝑥 ∈ 𝑅²</option>
+  <option value="d">for some 𝑥 ≠ 0, 𝑥 ∈ 𝑅²</option>
 </select>
 
         <br>
         <button class="subbtn3" type="submit" id="mulx"  onclick="ques5()">Submit</button></p></li>
          
-        <p id="result5"></p>
+        <p class="results" id="result5"></p>
 
-         <li><p style="font-size: 1.4rem;">y is an eigenvector corresponding to eigenvalue &lambda;, 
-            if for y&isin;R<sup>2</sup>, T(x) = &lambda;x and 
+         <li><p style="font-size: 1.4rem;"><i>y</i> is an eigenvector corresponding to eigenvalue &lambda;, 
+            if for <i>y</i>&isin;<i>R</i><sup>2</sup>, <i>T</i>(<i>x</i>) = &lambda;<i>x</i> and 
             
             <select name="" id="vectorSelect6">
             
             <option value="a">--Select--</option>
-            <option value="b">x&ne;(0, 0)</option>
-            <option value="c">x=(0, 0)</option>
-            <option value="d">x=(1, 0)</option>
-            <option value="e">x=(1, 1)</option>
+            <option value="b">𝑥&ne;(0, 0)</option>
+            <option value="c">𝑥=(0, 0)</option>
+            <option value="d">𝑥=(1, 0)</option>
+            <option value="e">𝑥=(1, 1)</option>
          
             
         </select>

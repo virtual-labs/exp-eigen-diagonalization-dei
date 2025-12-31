@@ -17,11 +17,11 @@ function ques1(){
   }
 else{
   if (selected === "e") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! (&radic;2, &radic;2) is a multiple of (1, 1).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct!";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! (&radic;2, &radic;2) is a multiple of (1, 1).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect. Correct Answer: (&radic;2, &radic;2)";
     result.style.color = "red";
     
   }}
@@ -36,11 +36,11 @@ function ques2(){
   }
 else{
   if (selected === "c") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! (2, -2) is not a multiple of (1, 1).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct!";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! (2, -2) is not a multiple of (1, 1).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect. Correct Answer: (2, -2)";
     result.style.color = "red";
     
   }}
@@ -55,11 +55,11 @@ function ques3(){
   }
 else{
   if (selected === "d") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! T(x) = (2, 0).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct!";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! T(x) = (2, 0).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: (2, 0)";
     result.style.color = "red";
     
   }}
@@ -74,11 +74,11 @@ function ques4(){
   }
 else{
   if (selected === "c") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! T(x) = (-2, 3).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct!";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! T(x) =(-2, 3).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: (-2, 3)";
     result.style.color = "red";
     
   }}
@@ -95,11 +95,11 @@ function ques5(){
   }
 else{
   if (selected === "d") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! <br> λ is an eigenvalue of T if T(x) = λx  for some x&ne;0, x&isin;R<sup>2</sup>.";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct!";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! <br> λ is an eigenvalue of T if T(x) = λx  for some x&ne;0, x&isin;R<sup>2</sup>.";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: for some <i>x</i>&ne;0, <i>x</i>&isin;<i>R</i><sup>2</sup>.";
     result.style.color = "red";
     
   }}
@@ -115,11 +115,11 @@ function ques6(){
   }
 else{
   if (selected === "b") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct! if for x∈R<sup>2</sup>, T(x) = λx and x&ne;(0, 0).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>✅ Correct!";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! if for x∈R<sup>2</sup> T(x) = λx and x&ne;(0, 0).";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: <i>x</i>&ne;(0, 0).";
     result.style.color = "red";
     
   }}
@@ -147,11 +147,11 @@ function p2que0(){
   }
 else{
   if (selected === "c") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! Eigenvalues of T are 1 & -1. <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1) <br> &emsp;&emsp; &emsp; T(1, -1) = (-1, 1) = (-1).(1 -1)";
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1) <br> &emsp;&emsp; &emsp; T(1, -1) = (-1, 1) = (-1).(1 -1)";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Eigenvalues of T are 1 & -1. <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1) <br> &emsp;&emsp; &emsp; T(1, -1) = (-1, 1) = (-1).(1 -1)";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: 1 & -1 <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1) <br> &emsp;&emsp; &emsp; T(1, -1) = (-1, 1) = (-1).(1 -1)";
     result.style.color = "red";
     
   }}
@@ -168,11 +168,11 @@ function p2que1(){
   }
 else{
   if (selected === "c") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! (1, 1) is an eigenvector. <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1)</span>";
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1)</span>";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! (1, 1) is an eigenvector. <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1)</span>";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: (1, 1) <br> <span style='color:black;'>Reason: T(1, 1) = (1, 1) = 1.(1, 1)</span>";
     result.style.color = "red";
     
   }}
@@ -189,11 +189,11 @@ function p2que2(){
   }
 else{
   if (selected === "d") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! <br> An eigenvector is given by (x, x), x ≠ 0, x ∈ R.";
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct!";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! <br> An eigenvector is given by (x, x), x ≠ 0, x ∈ R.";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: (<i>x, x</i>), <i>x</i> ≠ 0, <i>x</i> ∈ <i>R</i>.";
     result.style.color = "red";
     
   }}
@@ -209,11 +209,11 @@ function p2que3(){
   }
 else{
   if (selected === "b") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! (1, -1) is an eigenvector. <br> <span style='color:black;'>Reason: T(1, -1) = (-1, 1) = (-1).(1 -1)</span>";
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! <br> <span style='color:black;'>Reason: T(1, -1) = (-1, 1) = (-1).(1 -1)</span>";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! (1, -1) is an eigenvector. <br> <span style='color:black;'>Reason: T(1, -1) = (-1, 1) = (-1).(1 -1)</span>";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: (1, -1) <br> <span style='color:black;'>Reason: T(1, -1) = (-1, 1) = (-1).(1 -1)</span>";
     result.style.color = "red";
     
   }}
@@ -230,11 +230,11 @@ function p2que4(){
   }
 else{
   if (selected === "b") {
-    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! <br> An eigenvector is given by (-x, x), x ≠ 0, x ∈ R.";
+    result.innerHTML = "<span style='color:black;'>Answer:</span> ✅ Correct! ";
     result.style.color = "green";
    
   } else {
-    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! <br> An eigenvector is given by (-x, x), x ≠ 0, x ∈ R.";
+    result.innerHTML = "<span style='color:black;'>Answer:</span>❌ Incorrect! Correct Answer: (-<i>x, x</i>), <i>x</i> ≠ 0, <i>x</i> ∈ <i>R</i>.";
     result.style.color = "red";
     
   }}
