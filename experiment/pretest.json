@@ -9,6 +9,12 @@
                 "c": "-5",
                 "d": "8"
             },
+             "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Correct. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
+            },
             "correctAnswer": "c",
             "difficulty": "beginner"
         },
@@ -19,6 +25,12 @@
                 "b": "-1, 2",
                 "c": "1, -2",
                 "d": "-1, -2"
+            },
+             "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Correct. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
             },
             "correctAnswer": "b",
             "difficulty": "beginner"
@@ -31,6 +43,12 @@
                 "c": "-2, 1",
                 "d": "-1, 1"
             },
+             "explanations": {
+                "a": "Correct. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
+            },
             "correctAnswer": "a",
             "difficulty": "beginner"
         },
@@ -41,6 +59,12 @@
                 "b": "$(0, x + y); x, y \\in \\mathbb{R}$",
                 "c": "$(x, y); x, y \\in \\mathbb{R}$",
                 "d": "$(x, 0); x \\in \\mathbb{R}$"
+            },
+             "explanations": {
+                "a": "Correct. Follows by definition.",
+                "b": "Incorrect. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
             },
             "correctAnswer": "a",
             "difficulty": "beginner"
@@ -53,6 +77,12 @@
                 "c": "$X = \\begin{bmatrix} 2 \\\\ -1 \\end{bmatrix}$",
                 "d": "$X = \\begin{bmatrix} 3 \\\\ 0 \\end{bmatrix}$"
             },
+             "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Correct. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
+            },
             "correctAnswer": "b",
             "difficulty": "beginner"
         },
@@ -63,6 +93,12 @@
                 "b": "$(T + 2I)(x, y) = (3x, 2y)$",
                 "c": "$(T + 2I)(x, 2y) = (x - 2, 2y)$",
                 "d": "$(T + 2I)(3x, 2y) = (0, y + 2)$"
+            },
+             "explanations": {
+                "a": "Incorrect. Follows by definition.",
+                "b": "Correct. Follows by definition.",
+                "c": "Incorrect. Follows by definition.",
+                "d": "Incorrect. Follows by definition."
             },
             "correctAnswer": "b",
             "difficulty": "beginner"
