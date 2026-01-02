@@ -1,0 +1,87 @@
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eigenvalues and Eigenvectors</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+	<script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" href="css/style3.css">
+	<script src="script2.js"></script>
+	<script src="js/evevalscript.js"></script>
+<style>
+	.label{
+    display: inline-block;
+    width: 120px;   /* jitni jagah chahiye label ko */
+}
+
+.content{
+    display: inline-block;
+    vertical-align: top;
+}
+
+</style>
+	</head>
+	
+	<body>
+		<h2 class="pagehead">Example 2</h2>
+	<div class="container">
+		
+	<p style="margin-bottom: 0px;">Enter the values of <i>a, c</i> and <i>d</i> to choose matrix <i>A</i></p>
+	<p style="color: blue; font-size: 20px; margin-top: 5px;"><b>Note:</b> For convinence of calculations "<i>b</i>" has been fixed to be "0"</p>
+	<label for="a"><i>a</i>:</label>
+	<input type="number" id="a" class="basisinput" step="any">
+	<label for="b"><i>b</i>:</label>	
+	<input type="number" id="b" value="0" class="basisinput" step="any" disabled><br>
+	<label for="c"><i>c</i>:</label>
+	<input type="number" id="c" class="basisinput" step="any">
+	<label for="d"><i>d</i>:</label>
+	<input type="number" id="d" class="basisinput" step="any"><br>
+	
+	<button id="subbtn" style="background-color: rgb(144, 180, 246); margin: 20px;" class="subbtn" onclick="smatrix()">Submit</button>
+	<p id="mat"></p>
+	<button class="subbtn"  onclick="chEqe()" style="background-color: yellowgreen;"><span class="btnhead">Eigenvalues</span></button>
+	
+	<p id="cheqhead" style="display: none;" >Charcteristic Equation:</p>
+	<p id="cheqe"></p>
+	<p id="res1" style="display:none;">
+    <span class="label">Eigenvalues:</span>
+    <span id="result1_1" class="content"></span>
+	</p>
+
+		
+	
+	<button id="res2btn" class="subbtn" " onclick="eigenVector()"><span class="btnhead">Eigenvectors</span></button><br>
+
+
+	
+	<p id="expln"></p>
+	
+	<button id="lam1" style="display: none; background: none; border: 0; font-size: 22px;"><b>Eigenvectors for &lambda; <sub>1</sub> = <span id="lam1val"></span></b></button>
+	
+	<p id="see-exp" style="margin-left: 50px;"></p> 
+	<p id="matexp" style="margin-left: 50px;"></p>
+	
+<p id="ttl1" style="margin-left: 50px;"></p>
+	
+	
+
+	<button id="res4btn" class="subbtn"  style="display: none; background: none; border: 0;font-size: 22px;"><b>Eigenvectors for &lambda; <sub>2</sub> = <span id="lam2val"></span></b></button>
+
+	<p id="see-exp2" style="margin-left: 50px;"></p> 
+	<p id="matexp2" style="margin-left: 50px;"></p>
+	<p id="ttl2" style="margin-left: 50px;"></p>
+	
+	
+	<p style="color: blue; font-size: 20px; margin-top: 5px;"><b>Note:</b> Eigenvalues and eigenvectors of a square matrix are visualized through the eigenvalues and eigenvectors of the linear transformation associated with the given matrix. </p>
+	</div>
+	<p style="float: center; align-content:right;">
+		<a href="./example1.html" class="previous">&laquo; Previous</a></p>
+	
+	</body>
+	</html>
+	
