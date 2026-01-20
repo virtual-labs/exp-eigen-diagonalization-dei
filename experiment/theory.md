@@ -94,7 +94,7 @@ In such a case <i>A</i> and <i>D</i> are called similar. <br>
 (ii) If a matrix <i>A</i> of order <i>n</i>×<i>n</i> has <i>n</i> distinct eigenvalues, then <i>A</i> is diagonalizable.<br>
 Note: If a matrix <i>A</i> of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 9(<i>ii</i>) below.
 
-#### 10. Examples:
+#### 10. Example:
 $$
 \begin{aligned}
 &\hspace{-9.2cm} \text{i.) Let } A = \begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix}
@@ -116,6 +116,6 @@ $$
 &\hspace{-3cm} \text{D= } \begin{pmatrix} 1 & 0 & 0 \\\ 0 & -1 & 0 \\\ 0 & 0 & 1 \end{pmatrix}.
 \end{aligned}
 $$
-##### Remark: <br> 
+#### Remark: <br> 
 Thus it may be noted that the eigenvalues of a matrix may not be distinct but the matrix is diagonalizable.
 
