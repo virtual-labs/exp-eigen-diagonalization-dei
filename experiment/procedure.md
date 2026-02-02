@@ -9,4 +9,4 @@
 9.	Click on “Next” button to go to the next page.<br>
 10.	Enter the values of <i>a, c</i> and <i>d</i> to choose matrix <i>A</i> and click on “Submit” button to display the matrix <i>A</i>.<br>
 11.	Click on the “Eigenvalues” button to learn the working of eigenvalues through characteristic equation and its roots.<br>
-12.	Click on “Eigenvector” button to learn the working of eigenvectors through solutions of equations.<br>
+12.	Click on “Eigenvector” button to learn the working of eigenvectors through solutions of equations.</span>
