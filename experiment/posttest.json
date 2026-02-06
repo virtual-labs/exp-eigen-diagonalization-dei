@@ -55,10 +55,10 @@
         {
             "question": "Consider the vector space $M_{2\\times2}$ over $\\mathbb{R}$. Let $A$ be matrix of order $2\\times2$ which have eigenvalues $\\alpha$ and $\\mu$, such that $\\alpha<\\mu$. Then",
             "answers": {
-                "a": "$E_{\\alpha} \\cap E_{\\mu} = \\u000barphi$",
+                "a": "$E_{\\alpha} \\cap E_{\\mu} = \\emptyset$",
                 "b": "$E_{\\alpha} \\subseteq E_{\\mu}$",
-                "c": "$x \\notin E_{\\alpha} \\cap E_{\\mu}$, if $x \neq 0$",
-                "d": "$x \\notin E_{\\alpha} \\cap E_{\\mu}$, if $x \\eq 0$"
+                "c": "$x \\notin E_{\\alpha} \\cap E_{\\mu}$, if $x \\neq 0$",
+                "d": "$x \\notin E_{\\alpha} \\cap E_{\\mu}$, if $x = 0$"
             },
             "explanations": {
                 "a": "Incorrect. Follows by definition.",
