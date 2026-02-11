@@ -5,7 +5,7 @@
 <span style="font-family: 'Times New Roman'; font-size: 22px;">The characteristic polynomial of a matrix <i>A</i> of order n×n is defined as |<i>A</i>-<i>λI</i>|, where <i>λ</i>&isin;<i>R</i>, <i>I</i> is the identity matrix and |<i>A</i>-<i>λI</i>| denotes the determinant of (<i>A</i>-<i>λI</i>). Clearly, degree of the characteristic polynomial is <i>n</i>. Characteristic polynomial of <i>A</i> is denoted by <i>f</i>(<i>λ</i>). The equation <i>f</i>(<i>λ</i>)=0, i.e. |<i>A</i>-<i>λI</i>|=0 is called the characteristic equation.</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">2. Eigenvalues and eigenvectors of a matrix: </span>**
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i> be a matrix of order <i>n</i>×<i>n</i>. Then <i>λ</i>&isin;<i>R</i> is called an eigenvalue of <i>A</i>, if there exist a column vector i.e. an <i>n</i>×1matrix <i>X</i>≠0 such that <i>AX</i>=<i>λX</i> and <i>X</i> is called an eigenvector corresponding to the eigenvalue <i>λ</i>.</span>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i> be a matrix of order <i>n</i>×<i>n</i>. Then <i>λ</i>&isin;<i>R</i> is called an eigenvalue of <i>A</i>, if there exists a column vector i.e. an <i>n</i>×1matrix <i>X</i>≠0 such that <i>AX</i>=<i>λX</i> and <i>X</i> is called an eigenvector corresponding to the eigenvalue <i>λ</i>.</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">3. Example:</span>**
 
