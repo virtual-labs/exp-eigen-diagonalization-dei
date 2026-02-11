@@ -1,0 +1,105 @@
+
+/home/runner/work/exp-eigen-diagonalization-dei/exp-eigen-diagonalization-dei/experiment/simulation/js/evevalscript.js
+    2:10  warning  'smatrix' is defined but never used             no-unused-vars
+    4:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+    5:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+    6:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+    7:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+    8:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+    9:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   10:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   11:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   12:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   13:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   14:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   15:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   16:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   17:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   18:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   19:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   20:2   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   21:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   22:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   24:3   warning  'MathJax' is not defined                        no-undef
+   24:33  warning  'MathJax' is not defined                        no-undef
+   26:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   27:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   29:11  warning  'eigenVector' is defined but never used         no-unused-vars
+   35:7   warning  'va' is assigned a value but never used         no-unused-vars
+   36:7   warning  'vd' is assigned a value but never used         no-unused-vars
+   40:7   warning  'symb' is assigned a value but never used       no-unused-vars
+   49:7   warning  'v1' is assigned a value but never used         no-unused-vars
+   50:7   warning  'v2' is assigned a value but never used         no-unused-vars
+   52:7   warning  'det' is assigned a value but never used        no-unused-vars
+   58:9   warning  'trace' is already defined                      no-redeclare
+   60:9   warning  'trace2' is assigned a value but never used     no-unused-vars
+   62:6   warning  'eqdec' is assigned a value but never used      no-unused-vars
+   64:13  warning  'latexCode' is assigned a value but never used  no-unused-vars
+   74:4   warning  'MathJax' is not defined                        no-undef
+   74:34  warning  'MathJax' is not defined                        no-undef
+   81:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   82:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+   87:5   warning  'MathJax' is not defined                        no-undef
+   87:35  warning  'MathJax' is not defined                        no-undef
+   92:4   warning  'MathJax' is not defined                        no-undef
+   92:34  warning  'MathJax' is not defined                        no-undef
+  100:4   warning  'MathJax' is not defined                        no-undef
+  100:34  warning  'MathJax' is not defined                        no-undef
+  104:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  106:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  112:4   warning  'MathJax' is not defined                        no-undef
+  112:34  warning  'MathJax' is not defined                        no-undef
+  117:5   warning  'MathJax' is not defined                        no-undef
+  117:35  warning  'MathJax' is not defined                        no-undef
+  120:4   warning  'MathJax' is not defined                        no-undef
+  120:34  warning  'MathJax' is not defined                        no-undef
+  125:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  126:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  132:4   warning  'MathJax' is not defined                        no-undef
+  132:34  warning  'MathJax' is not defined                        no-undef
+  136:5   warning  'MathJax' is not defined                        no-undef
+  136:35  warning  'MathJax' is not defined                        no-undef
+  139:4   warning  'MathJax' is not defined                        no-undef
+  139:34  warning  'MathJax' is not defined                        no-undef
+  145:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  146:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  150:4   warning  'MathJax' is not defined                        no-undef
+  150:34  warning  'MathJax' is not defined                        no-undef
+  157:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  158:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  164:4   warning  'MathJax' is not defined                        no-undef
+  164:34  warning  'MathJax' is not defined                        no-undef
+  168:5   warning  'MathJax' is not defined                        no-undef
+  168:35  warning  'MathJax' is not defined                        no-undef
+  171:4   warning  'MathJax' is not defined                        no-undef
+  171:34  warning  'MathJax' is not defined                        no-undef
+  178:3   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  181:11  warning  'chEqe' is defined but never used               no-unused-vars
+  189:7   warning  'symb' is assigned a value but never used       no-unused-vars
+  206:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  207:2   warning  'MathJax' is not defined                        no-undef
+  207:32  warning  'MathJax' is not defined                        no-undef
+  208:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  209:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  210:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+  211:1   warning  Mixed spaces and tabs                           no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-eigen-diagonalization-dei/exp-eigen-diagonalization-dei/experiment/simulation/js/script.js
+    1:10  warning  'mulX2' is defined but never used   no-unused-vars
+    4:10  warning  'txfun' is defined but never used   no-unused-vars
+   11:10  warning  'ques1' is defined but never used   no-unused-vars
+   30:10  warning  'ques2' is defined but never used   no-unused-vars
+   49:10  warning  'ques3' is defined but never used   no-unused-vars
+   68:10  warning  'ques4' is defined but never used   no-unused-vars
+   89:10  warning  'ques5' is defined but never used   no-unused-vars
+  109:10  warning  'ques6' is defined but never used   no-unused-vars
+  127:10  warning  'infren' is defined but never used  no-unused-vars
+  130:10  warning  'eveval' is defined but never used  no-unused-vars
+  140:10  warning  'p2que0' is defined but never used  no-unused-vars
+  161:10  warning  'p2que1' is defined but never used  no-unused-vars
+  182:10  warning  'p2que2' is defined but never used  no-unused-vars
+  202:10  warning  'p2que3' is defined but never used  no-unused-vars
+  223:10  warning  'p2que4' is defined but never used  no-unused-vars
+
+✖ 98 problems (0 errors, 98 warnings)
+

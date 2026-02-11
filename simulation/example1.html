@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" href="css/style2.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+      <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="./js/script.js"></script>
+    
+<body>
+	<h2 class="pagehead">Example 1</h2>
+	<div class="container">
+
+	
+    	<p id="exmpp" ><i>T:R</i><sup>2</sup> &rarr; <i>R</i><sup>2</sup><br><i>T</i>(<i>x, y</i>) = (<i>y, x</i>), (<i>x, y</i>)&isin;<i>R</i><sup>2</sup></p>
+
+        <button class="subbtn" ><b>Eigen Values </b></button><br>
+		<ul  id="eval"><li>Eigenvalues of <i>T</i> are <select name="" id="valSelect0">
+            
+            <option value="a">--Select--</option>
+            <option value="b">2 & 1</option>
+            <option value="c">1 & -1</option>
+            <option value="d">1 & 0</option>
+            <option value="e">1 & 1</option>
+        </select> <button class="subbtn3" type="submit" id="mulx"  onclick="p2que0()">Submit</button></li>
+    <p id="p2result0"></p>
+</ul>
+       
+
+        <button class="subbtn"><b>Eigen Vectors </b></button><br>
+        <ul><li><b>Corresponding to eigenvalue 1</b></li>
+            <ul>
+            <li><p id="evector"><select name="" id="vectorSelect1">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(2, 1)</option>
+            <option value="c">(1, 1)</option>
+            <option value="d">(1, 2)</option>
+            <option value="e">(-1, 1)</option>
+        </select> is an eigenvector
+    <button class="subbtn3" type="submit" id="mulx"  onclick="p2que1()">Submit</button></li>
+    <p id="p2result1"></p>
+
+        <li>In general, an eigenvector is <select name="" id="vectorSelect2">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(-𝑥, 𝑥), 𝑥 ≠ 0, 𝑥 ∈ 𝑅</option>
+            <option value="c">(𝑥, -𝑥), 𝑥 = 0, -𝑥 ∈ 𝑅</option>
+            <option value="d">(𝑥, 𝑥), 𝑥 ≠ 0, 𝑥 ∈ 𝑅</option>
+            <option value="e">(𝑥, -𝑥), 𝑥 ≠ 0, 𝑥 ∈ 𝑅</option>
+        </select>
+    <button class="subbtn3" type="submit" id="mulx"  onclick="p2que2()">Submit</button></li>
+<p id="p2result2"></p>
+</ul>
+<li><b>Corresponding to eigenvalue -1</b></li>
+       <ul> <li><p id="evector"><select name="" id="vectorSelect3">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(1, -1)</option>
+            <option value="c">(1, 1)</option>
+            <option value="d">(-1, -1)</option>
+            <option value="e">(-1, 1)</option>
+        </select> is an eigenvector. <button class="subbtn3" type="submit" id="mulx"  onclick="p2que3()">Submit</button></li>
+        <p id="p2result3"></p>
+
+        <li>In general, an eigenvector is <select name="" id="vectorSelect4">
+            
+            <option value="a">--Select--</option>
+            <option value="b">(-𝑥, 𝑥), 𝑥 ≠ 0, 𝑥 ∈ 𝑅</option>
+            <option value="c">(𝑥, -𝑥), 𝑥 ∈ 𝑅</option>
+            <option value="d">(𝑥, 𝑥), 𝑥 ≠ 0, 𝑥 ∈ 𝑅</option>
+            <option value="e">(𝑥, 𝑥), 𝑥 = 0, 𝑥 ∈ 𝑅</option>
+        </select>
+    <button class="subbtn3" type="submit" id="mulx"  onclick="p2que4()">Submit</button></li>
+    <p id="p2result4"></p>
+    </ul>
+    </ul>
+		
+		<p style="background-color: yellowgreen; font-size: 28PX; text-align: center; border: 1px solid;">Visualization</p>
+		<img id="exmp1" src="images/visualimg1.PNG" style="height: auto; width:37rem;">
+            
+		
+		
+	</div>
+
+     <p style="float: center; align-content:right;">
+<a href="index.html" class="previous">&laquo; Previous</a></p>
+
+<p style="float: center; align-content:right;">
+<a href="eVeceValMatrix.html" class="next" >Next &raquo;</a></p>
+</body>
+</html>
