@@ -87,7 +87,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Let $T: \\mathbb{R}^2 \rightarrow \\mathbb{R}^2$ be a linear transformation defined as $T(x, y) = (x, 0)$, where $x, y \\in \\mathbb{R}$. Then",
+            "question": "Let $T: \\mathbb{R}^2 \\rightarrow \\mathbb{R}^2$ be a linear transformation defined as $T(x, y) = (x, 0)$, where $x, y \\in \\mathbb{R}$. Then",
             "answers": {
                 "a": "$(T + 2I)(x, y) = (x + 2, 0)$",
                 "b": "$(T + 2I)(x, y) = (3x, 2y)$",
