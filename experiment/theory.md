@@ -44,7 +44,7 @@ To find eigenvectors of <i>T</i> for <i>λ</i>=-1, we solve the equation <i>T</i
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">8. Properties of eigenvalue and eigenvector:</span>**
 
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i> be matrix of order <i>n</i>×<i>n</i> and <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>n</i></sup>.<br>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i> be matrix of order <i>n</i>×<i>n</i> and <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>n</i></sup>. Then<br>
 (i.) Number of eigenvalues of a matrix <i>A</i> is less than or equal to <i>n</i>. <br>
 (ii.) If 0 is an eigenvalue of a matrix <i>A</i> or a linear transformation <i>T</i>, then the matrix <i>A</i> or the linear transformation <i>T</i> is singular.<br>
 (iii.) If <i>x</i> is an eigenvector of a matrix <i>A</i> or a linear transformation <i>T</i> corresponding to an eigenvalue <i>λ</i>, then <i>αx</i>, where <i>α</i>≠0 is also an eigenvector corresponding to the eigenvalue <i>λ</i>.<br>
@@ -56,7 +56,7 @@ To find eigenvectors of <i>T</i> for <i>λ</i>=-1, we solve the equation <i>T</i
 (i) Let <i>A</i> be diagonalizable such that <i>λ</i><sub>1</sub>, <i>λ</i><sub>2</sub>, <i>λ</i><sub>3</sub>, …, <i>λ</i><sub><i>n</i></sub> are its eigenvalues and <i>B</i>={<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, …, <i>x</i><sub><i>n</i></sub>} is a basis of <i>R</i><sup><i>n</i></sup>, where <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, …, <i>x</i><sub><i>n</i></sub> are the corresponding eigenvectors. Let <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>n</i></sup> be the linear transformation associated with the matrix <i>A</i> w.r.t. the standard basis of <i>R</i><sup><i>n</i></sup>. Then matrix of <i>T</i> w.r.t. <i>B</i> is the diagonal matrix <i>D</i> having eigenvalues <i>λ</i><sub>1</sub>, <i>λ</i><sub>2</sub>, <i>λ</i><sub>3</sub>, …, <i>λ</i><sub><i>n</i></sub> as its diagonal entries. <br>
 In such a case <i>A</i> and <i>D</i> are called similar. <br>
 (ii) If a matrix <i>A</i> of order <i>n</i>×<i>n</i> has <i>n</i> distinct eigenvalues, then <i>A</i> is diagonalizable.<br>
-Note: If a matrix <i>A</i> of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 9(<i>ii</i>) below.</span>
+Note: If a matrix <i>A</i> of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 10(<i>ii</i>) below.</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">10. Example:</span>** 
 
