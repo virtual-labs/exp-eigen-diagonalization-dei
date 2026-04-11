@@ -34,7 +34,7 @@ ii) $ A = \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix}. $
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">6. Finding eigenvalues and eigenvectors of a linear transformation:</span>**
 
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>V</i> be a finite dimensional vector space over the field <i>R</i> and let <i>T</i>: <i>V</i>→<i>V</i> be a linear transformation. Then to find the eigenvalue and eigenvector of <i>T</i>, consider a matrix representation <i>A</i> associated to the linear transformation <i>T</i> w.r.t. the standard basis. Eigenvalues and eigenvectors of the matrix <i>A</i> are same as that of linear transformation <i>T</i>.</span>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>V</i> be a finite dimensional vector space over the field <i>R</i> and let <i>T</i>: <i>V</i>→<i>V</i> be a linear transformation. Then to find the eigenvalues and eigenvectors of <i>T</i>, consider a the matrix representation <i>A</i> associated to the linear transformation <i>T</i> w.r.t. the standard basis. Eigenvalues and eigenvectors of the matrix <i>A</i> are same as that of the linear transformation <i>T</i>.</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">7. Example:</span>**
 
