@@ -9,12 +9,13 @@
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">3. Example:</span>**
 
-<span style="font-family: 'Times New Roman'; font-size: 22px;">i.) Let</span> $ A = \begin{pmatrix} 1 & 8 \\\ 1 & 3\end{pmatrix}. $ 
+<span style="font-family: 'Times New Roman'; font-size: 22px;">i) Let</span> $ A = \begin{pmatrix} 1 & 8 \\\ 1 & 3\end{pmatrix}. $ 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">To find the eigenvalues of <i>A</i>, consider the characteristic equation |<i>A</i>-<i>λI</i>|=0, This gives (1-<i>λ</i>)(3-<i>λ</i>)-8=0, which implies <i>λ</i>=5 and -1. Thus the eigenvalues of <i>A</i> are 1 and 3. To find eigenvectors of <i>A</i> for <i>λ</i>=5, consider (<i>A</i>-5.<i>I</i>)<i>X</i>=0. This gives</span> $ \begin{pmatrix} -4 & 8 \\\ 1 & -2 \end{pmatrix} \begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}. $
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Thus -4<i>x</i>+8<i>y</i>=0 and <i>x</i>-2<i>y</i>=0 which implies that <i>x</i>=2<i>y</i>. So, the eigenvectors corresponding to <i>λ</i>=5 are (2<i>y</i>, <i>y</i>), where 0≠<i>y</i>&isin;<i>R</i>. To find eigenvectors of <i>A</i> for <i>λ</i>=-1, consider (<i>A</i>-(-1).I)<i>X</i>=0. This gives</span> $ \begin{pmatrix} 2 & 8 \\\ 1 & 4 \end{pmatrix}\begin{pmatrix} x \\\ y \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \end{pmatrix}. $
 
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Thus 2<i>x</i>+8<i>y</i>=0 and <i>x</i>+4<i>y</i>=0 which implies that <i>x</i>=-4<i>y</i>. So, the eigenvector corresponding to <i>λ</i>=-1 are (-4<i>y</i>, <i>y</i>),where  0≠<i>y</i>&isin;<i>R</i>.</span> $ A = \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix}. $
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Thus 2<i>x</i>+8<i>y</i>=0 and <i>x</i>+4<i>y</i>=0 which implies that <i>x</i>=-4<i>y</i>. So, the eigenvector corresponding to <i>λ</i>=-1 are (-4<i>y</i>, <i>y</i>),where  0≠<i>y</i>&isin;<i>R</i>.
+ii) </span> $ A = \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix}. $
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">To find the eigenvalues of <i>A</i>, consider the characteristic equation |<i>A</i>-<i>λI</i>|=0. i.e.</span> $ \mid \begin{pmatrix} 1 & 2 & 1 \\\ 0 & 2 & 0 \\\ 0 & 1 & 2 \end{pmatrix} $ - $ \begin{pmatrix} λ & 0 & 0 \\\ 0 & λ & 0 \\\ 0 & 0 & λ \end{pmatrix}  \mid = 0, $ $ \text{ i.e. } \mid \begin{matrix} 1-λ & 2 & 1 \\\ 0 & 2-λ & 0 \\\ 0 & 1 & 2-λ \end{matrix} \mid $. 
 
