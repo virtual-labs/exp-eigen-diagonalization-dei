@@ -45,7 +45,7 @@ To find eigenvectors of <i>T</i> for <i>λ</i>=-1, we solve the equation <i>T</i
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">8. Properties of eigenvalue and eigenvector:</span>**
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>A</i> be matrix of order <i>n</i>×<i>n</i> and <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>n</i></sup> be a linear transformation. Then<br>
-(i.) Number of eigenvalues of <i>A</i> is less than or equal to <i>n</i>. <br>
+(i.) Number of eigenvalues of <i>A</i> or <i>T</i> is less than or equal to <i>n</i>. <br>
 (ii.) If 0 is an eigenvalue of <i>A</i> or <i>T</i>, then <i>A</i> or <i>T</i> is singular.<br>
 (iii.) If <i>x</i> is an eigenvector of <i>A</i> or <i>T</i> corresponding to an eigenvalue <i>λ</i>, then <i>αx</i> is also an eigenvector corresponding to the eigenvalue <i>λ</i>, where <i>α</i>≠0.<br>
 (iv.) If <i>x</i> and <i>y</i> are eigenvectors corresponding to an eigenvalue <i>λ</i> of <i>A</i> or <i>T</i> and -<i>x</i>≠<i>y</i>, then <i>x</i>+<i>y</i> is an eigenvector corresponding to the eigenvalue <i>λ</i>.</span>
