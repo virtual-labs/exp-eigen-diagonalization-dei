@@ -60,10 +60,10 @@ Note: If a matrix <i>A</i> of order n×n does not have n distinct eigenvalues, t
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">10. Example:</span>** 
 
-$ \text{i.) Let } A = \begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix} $.
+$ \text{i) Let } A = \begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix} $.
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Then its eigenvalues are <i>λ</i>=1 and 2. Thus the matrix A of order 2×2 has 2 distinct eigenvalues, Furthermore, the eigenvectors (0, 1) and (1, 1) of <i>A</i> form a basis of R<sup>2</sup>. 
 Hence <i>A</i> is a diagonalizable matrix and it is similar to </span> $ \text{D= } \begin{pmatrix} 1 & 0 \\\ 0 & 2\end{pmatrix}. $
 
-$ \text{ii.) Let A= }\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}. $
+$ \text{ii) Let A= }\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}. $
 <span style="font-family: 'Times New Roman'; font-size: 22px;"> Then its eigenvalues are <i>λ</i>=1, 1 and -1 which are not all distinct. Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of <i>A</i> form a basis of R<sup>3</sup>. Hence A is a diagonalizable matrix as it is similar to the matrix</span> $ \text{D= } \begin{pmatrix} 1 & 0 & 0 \\\ 0 & -1 & 0 \\\ 0 & 0 & 1 \end{pmatrix}. $
 
