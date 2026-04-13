@@ -1,5 +1,5 @@
 <span style="font-family: 'Times New Roman'; font-size: 22px;">This experiment deals with the study of eigenvalues and eigenvectors of a matrix and linear transformation which helps the users to understand their geometry in the context of linear transformations. Students will learn how to compute eigenvalues and eigenvectors, interpret their geometric meaning, and see how they describe the scaling or directional behaviour of a transformation.<br>
-</b>Note: Matrices considered in this experiment have real entries. Recall that (from Experiment 6), an <i>n</i>×1 matrix is called a column vector. Its transpose is a 1×<i>n</i> matrix called a row vector and it is considered as an element of <i>R</i><sup><i>n</i></sup>. These are used interchangeably as and when needed.</span>
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">Note: </span>** Matrices considered in this experiment have real entries. Recall that (from Experiment 6), an <i>n</i>×1 matrix is called a column vector. Its transpose is a 1×<i>n</i> matrix called a row vector and it is considered as an element of <i>R</i><sup><i>n</i></sup>. These are used interchangeably as and when needed.</span>
   
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">1. Characteristic polynomial and characteristic equation of a matrix:</span>**
 <span style="font-family: 'Times New Roman'; font-size: 22px;">The characteristic polynomial of a matrix <i>A</i> of order n×n is defined as |<i>A</i>-<i>λI</i>|, where <i>λ</i>&isin;<i>R</i>, <i>I</i> is the identity matrix and |<i>A</i>-<i>λI</i>| denotes the determinant of (<i>A</i>-<i>λI</i>). Clearly, degree of the characteristic polynomial is <i>n</i>. Characteristic polynomial of <i>A</i> is denoted by <i>f</i>(<i>λ</i>). The equation <i>f</i>(<i>λ</i>)=0, i.e. |<i>A</i>-<i>λI</i>|=0 is called the characteristic equation.</span>
@@ -53,7 +53,7 @@ To find eigenvectors of <i>T</i> for <i>λ</i>=-1, we solve the equation <i>T</i
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">9. Diagonalizability:</span>**
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Definition: A matrix <i>A</i> of order <i>n</i>×<i>n</i> is said to be diagonalizable if its eigenvectors form a basis of the vector space <i>R</i><sup><i>n</i></sup> over <i>R</i>. <br>
-Some results:
+**<span style="font-family: 'Times New Roman'; font-size: 22px;">Some resuts: </span>**
 (i) Let <i>A</i> be diagonalizable such that <i>λ</i><sub>1</sub>, <i>λ</i><sub>2</sub>, <i>λ</i><sub>3</sub>, …, <i>λ</i><sub><i>n</i></sub> are its eigenvalues and <i>B</i>={<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, …, <i>x</i><sub><i>n</i></sub>} is a basis of <i>R</i><sup><i>n</i></sup>, where <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, …, <i>x</i><sub><i>n</i></sub> are the corresponding eigenvectors. Then matrix of <i>T</i> w.r.t. the basis <i>B</i> is the diagonal matrix <i>D</i> having eigenvalues <i>λ</i><sub>1</sub>, <i>λ</i><sub>2</sub>, <i>λ</i><sub>3</sub>, …, <i>λ</i><sub><i>n</i></sub> as its diagonal entries, where <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>n</i></sup> be the linear transformation associated with the matrix <i>A</i> w.r.t. the standard basis of <i>R</i><sup><i>n</i></sup>. The matrices <i>A</i> and <i>D</i> are called similar. Thus <i>A</i> is similar to a diagonal matrix. <br>
 (ii) If a matrix <i>A</i> of order <i>n</i>×<i>n</i> has <i>n</i> distinct eigenvalues, then <i>A</i> is diagonalizable.<br>
 Note: If a matrix <i>A</i> of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 10(<i>ii</i>) below.</span>
@@ -67,8 +67,4 @@ Hence <i>A</i> is a diagonalizable matrix and it is similar to </span> $ \text{D
 
 $ \text{ii.) Let A= }\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}. $
 <span style="font-family: 'Times New Roman'; font-size: 22px;"> Then its eigenvalues are <i>λ</i>=1, 1 and -1 which are not all distinct. Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of <i>A</i> form a basis of R<sup>3</sup>. Hence A is a diagonalizable matrix as it is similar to the matrix</span> $ \text{D= } \begin{pmatrix} 1 & 0 & 0 \\\ 0 & -1 & 0 \\\ 0 & 0 & 1 \end{pmatrix}. $
-
-**<span style="font-family: 'Times New Roman'; font-size: 22px;">Remark: </span>**
-
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Thus it may be noted that the eigenvalues of a matrix may not be distinct but the matrix is diagonalizable.</span>
 
