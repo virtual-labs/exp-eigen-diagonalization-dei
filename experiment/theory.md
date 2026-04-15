@@ -56,7 +56,7 @@ To find eigenvectors of <i>T</i> for <i>λ</i>=-1, we solve the equation <i>T</i
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">Some resuts: </span>**
 (i) Let <i>A</i> be diagonalizable such that its eigenvalues are <i>λ</i><sub>1</sub>, <i>λ</i><sub>2</sub>, <i>λ</i><sub>3</sub>, …, <i>λ</i><sub><i>n</i></sub> and <i>B</i>={<i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, …, <i>x</i><sub><i>n</i></sub>}  be a basis of <i>R</i><sup><i>n</i></sup>, where <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, …, <i>x</i><sub><i>n</i></sub> are the corresponding eigenvectors. Then the matrix of <i>T</i> w.r.t. the basis <i>B</i> is the diagonal matrix <i>D</i> having eigenvalues <i>λ</i><sub>1</sub>, <i>λ</i><sub>2</sub>, <i>λ</i><sub>3</sub>, …, <i>λ</i><sub><i>n</i></sub> as its diagonal entries, where <i>T</i>: <i>R</i><sup><i>n</i></sup>→<i>R</i><sup><i>n</i></sup> is the linear transformation associated with the matrix <i>A</i> w.r.t. the standard basis of <i>R</i><sup><i>n</i></sup>. The matrices <i>A</i> and <i>D</i> are called similar. Thus <i>A</i> is similar to a diagonal matrix. <br>
 (ii) If a matrix <i>A</i> of order <i>n</i>×<i>n</i> has <i>n</i> distinct eigenvalues, then <i>A</i> is diagonalizable.<br>
-Note: If a matrix <i>A</i> of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in the example 10(<i>ii</i>) below.</span>
+Note: If a matrix <i>A</i> of order n×n does not have n distinct eigenvalues, then A can still be diagonalizable. This is shown in Example 10 (<i>ii</i>) below.</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">10. Example:</span>** 
 
@@ -65,5 +65,5 @@ $ \text{(i) Let } A = \begin{pmatrix} 2 & 0 \\\ 1 & 1\end{pmatrix} $.
 Hence <i>A</i> is a diagonalizable matrix and it is similar to </span> $ \text{D= } \begin{pmatrix} 1 & 0 \\\ 0 & 2\end{pmatrix}. $
 
 $ \text{(ii) Let A= }\begin{pmatrix} 1 & 0 & 0 \\\ 0 & 1 & 0 \\\ 0 & 0 & -1 \end{pmatrix}. $
-<span style="font-family: 'Times New Roman'; font-size: 22px;"> Then its eigenvalues are <i>λ</i>=1, 1 and -1 which are not all distinct. Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of <i>A</i> form a basis of R<sup>3</sup>. Hence A is a diagonalizable matrix as it is similar to the matrix</span> $ \text{D= } \begin{pmatrix} 1 & 0 & 0 \\\ 0 & -1 & 0 \\\ 0 & 0 & 1 \end{pmatrix}. $
+<span style="font-family: 'Times New Roman'; font-size: 22px;"> Then its eigenvalues are <i>λ</i>=1, 1 and -1 which are not all distinct. Furthermore, the eigenvectors (1, 0, 0), (0, 1, 0) and (0, 0, 1) of <i>A</i> form a basis of R<sup>3</sup>. Hence A is a diagonalizable matrix and it is similar to the matrix</span> $ \text{D= } \begin{pmatrix} 1 & 0 & 0 \\\ 0 & -1 & 0 \\\ 0 & 0 & 1 \end{pmatrix}. $
 
