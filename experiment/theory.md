@@ -23,7 +23,7 @@
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Thus 2<i>y</i>+<i>z</i>=0, 2<i>y</i>=0 and <i>y</i>+<i>z</i>=0 which imply that <i>y</i>=0 and <i>z</i>=0. So, the eigenvectors corresponding to <i>λ</i>=1 are (<i>x</i>, 0, 0), where 0≠<i>x</i>&isin;<i>R</i>. To find eigenvectors of <i>A</i> for <i>λ</i>=2, consider (<i>A</i>-2.<i>I</i>)X=0. This gives </span> $ \begin{pmatrix} -1 & 2 & 1 \\\ 0 & 0 & 0 \\\ 0 & 1 & 0 \end{pmatrix} \begin{pmatrix} x \\\ y \\\ z \end{pmatrix} = \begin{pmatrix} 0 \\\ 0 \\\ 0 \end{pmatrix}. $
 
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Thus <i>-x</i>+2<i>y</i>+<i>z</i>=0, <i>y</i>=0 and <i>y</i>+<i>z</i>=0 which imply that <i>x</i>=-<i>z</i>. So, the eigenvectors corresponding to <i>λ</i>=2 are (<i>x</i>, 0, -<i>x</i>), where 0≠<i>x</i>&isin;<i>R</i>.</span>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Thus <i>-x</i>+2<i>y</i>+<i>z</i>=0, <i>y</i>=0 and <i>y</i>+<i>z</i>=0 which imply that <i>x</i>=<i>z</i>. So, the eigenvectors corresponding to <i>λ</i>=2 are (<i>x</i>, 0, <i>x</i>), where 0≠<i>x</i>&isin;<i>R</i>.</span>
 
 **<span style="font-family: 'Times New Roman'; font-size: 22px;">4. Eigenvalues and eigenvectors of a linear transformation:</span>**
 
