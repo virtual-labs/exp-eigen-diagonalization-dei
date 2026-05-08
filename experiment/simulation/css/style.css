@@ -36,6 +36,13 @@ body{
     border-radius: 0.5rem;
     box-shadow: 0px 3px 15px rgba(133, 115, 119, 1.0);
 }
+
+img{
+    width: 10%;
+    height: auto;
+}
+
+
 .subbtn{
     height:auto;
     width:auto;
@@ -85,4 +92,25 @@ body{
 .previous:hover {
   background-color: #ada;
   color: black;
+}
+
+@media (max-width: 768px) {
+    .container{
+    /*border: 1px solid #717377;*/
+    padding: 1rem;
+    border-radius: 1.2rem;
+    background-color: whitesmoke;
+    
+    /*background: transparent;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);*/
+    box-shadow: 0px 3px 15px rgba(133, 115, 119, 0.5);
+}
+.container:hover{
+    border-radius: 0.5rem;
+    box-shadow: 0px 3px 15px rgba(133, 115, 119, 1.0);
+}
+img{
+    width: 10%;
+    height: auto;
+}
 }

@@ -24,10 +24,7 @@ body{
     margin-right: 25%;
     box-shadow: 0px 3px 15px rgba(133, 115, 119, 0.5);
 }
-img{
-    width: 25rem;
-    height:20rem;
-}
+
 #exmp{
     width: 45rem;
 }
@@ -89,24 +86,40 @@ label{
     color: blue;
 }
 .subbtn{
-    height:auto;
-    width:auto;
-    background-color:#81cdc6;
-    font-size: 1.2rem;
-    border: 1px solid teal;
-    margin: 0.5rem 0rem 0rem 0rem;
-}
+        height:auto;
+        width:auto;
+        background-color:#81cdc6;
+        font-size: 1.3rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        border: 1px solid teal;
+        margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+        cursor: pointer;
+    }
+
 #prereqbtn{
     background-color: #dfee11;
     border: 1px solid rgb(139, 119, 4);
     margin-left: 1rem;
 }
 #lam1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
     margin-left: 1rem;
+    display: none; 
+    background: none;
+    border: none;
 }
 #res4btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
     margin-left: 1rem;
+    display: none; 
+    background: none;
+    border: none;
 }
+
+
 .subbtn2{
     margin-left: 1rem;
 }
@@ -116,4 +129,52 @@ label{
 }
 .forleftpad{
     margin-left: 12rem;
+}
+.note{
+    color: blue; 
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0.5rem auto;
+    }
+
+    .pagehead {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .note {
+    color: blue; 
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.subbtn{
+        font-size: 1rem;
+    }
+    .btnhead{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    #lam1{
+        font-size: 1rem;
+    }
+
+    #res4btn{
+        font-size: 1rem;
+}
 }

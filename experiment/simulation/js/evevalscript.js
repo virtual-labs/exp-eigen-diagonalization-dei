@@ -83,7 +83,7 @@ function smatrix(){
 			
 				document.getElementById("see-exp2").style.display="block"
 			document.getElementById("matexp2").style.display="block"
-				document.getElementById('ttl1').innerHTML = `<b>Eigenvector:</b> \\( ${latexCode1}, x&isin;R&emsp;and&emsp;x&ne;0 &emsp;\\) `;
+				document.getElementById('ttl1').innerHTML = `<li><b>Eigenvector:</b> \\( ${latexCode1}, x&isin;R&emsp;and&emsp;x&ne;0 &emsp;\\) </li>`;
 				MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 				
 		
@@ -112,7 +112,7 @@ function smatrix(){
 			MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 
 				//LAMBDA2 == A
-			document.getElementById('ttl2').innerHTML = document.getElementById('ttl1').innerHTML = `<b>Eigenvector:</b> \\( ${latexCode1},\\; x \\in \\mathbb{R},\\; \\text{and}\\; x \\neq 0 \\)`;
+			document.getElementById('ttl2').innerHTML = document.getElementById('ttl1').innerHTML = `<li><b>Eigenvector:</b> \\( ${latexCode1},\\; x \\in \\mathbb{R},\\; \\text{and}\\; x \\neq 0 \\)</li>`;
 			document.getElementById("ttl2").style.display="block";
 				MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 			document.getElementById("see-exp2").innerHTML ="&emsp;<li>Eigenvector: (<i>x, y</i>) satisfies <i>AX = &lambda;X</i></li>";
@@ -132,7 +132,7 @@ function smatrix(){
 			MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 
 
-			document.getElementById('ttl2').innerHTML = `\\[ Eigenvector: ${latexCode2}, x&isin;R&emsp;and&emsp;x&ne;0 &emsp;\\] `;
+			document.getElementById('ttl2').innerHTML = `<li>\\[ Eigenvector: ${latexCode2}, x&isin;R&emsp;and&emsp;x&ne;0 &emsp;\\] </li>`;
 				MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 			document.getElementById("see-exp2").innerHTML ="&emsp;<li>Eigenvector: (<i>x, y</i>) satisfies <i>AX = &lambda;X</i></li>";
 			document.getElementById("matexp2").innerHTML ="\\[ \\begin{pmatrix} "+a+" & "+b+" \\\\"  +c+" & "+d+"\\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = "+lambda2+" \\begin{pmatrix} x \\\\ y \\end{pmatrix} \\] <br><li>Equation 1: "+ a + "<i>x</i>+" + b + "<i>y</i> = " +lambda2+ "<i>x</i>  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" +a+ "<i>x</i> - " +lambda2+ "<i>x</i> +" +b+ "<i>y</i> = 0<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"+dlambda+"<i>x</i> + "+b+"<i>y</i> = 0<br> &emsp;  Equation 2: "+ c + "<i>x</i>+" + d + "<i>y</i> = " +lambda2+ "<i>y</i>  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" +c+  "<i>x</i> + " +d+ "<i>y</i> - " +lambda2+"<i>y</i> = 0<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"+c+"<i>x</i> +"+alambda+"<i>y</i> = 0" ;
@@ -164,7 +164,7 @@ function smatrix(){
 			MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 
 
-			document.getElementById('ttl2').innerHTML = `<b>Eigenvector:</b> \\( ${latexCode2}, x&isin;R&emsp;and&emsp;x&ne;0 &emsp;\\) `;
+			document.getElementById('ttl2').innerHTML = `<li><b>Eigenvector:</b> \\( ${latexCode2}, x&isin;R&emsp;and&emsp;x&ne;0 &emsp;\\) </li>`;
 				MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 			document.getElementById("see-exp2").innerHTML ="&emsp;<li>Eigenvector: (<i>x, y</i>) satisfies <i>AX = &lambda;X</i></li>";
 			document.getElementById("matexp2").innerHTML ="\\[ \\begin{pmatrix} "+a+" & "+b+" \\\\"  +c+" & "+d+"\\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = "+lambda2+" \\begin{pmatrix} x \\\\ y \\end{pmatrix} \\] <br><li>Equation 1: "+ a + "<i>x</i>+" + b + "<i>y</i> = " +lambda2+ "<i>x</i>  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" +a+ "<i>x</i> - " +lambda2+ "<i>x</i> +" +b+ "<i>y</i> = 0<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"+dlambda+"<i>x</i> + "+b+"<i>y</i> = 0<br> &emsp;  Equation 2: "+ c + "<i>x</i>+" + d + "<i>y</i> = " +lambda2+ "<i>y</i>  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;" +c+  "<i>x</i> + " +d+ "<i>y</i> - " +lambda2+"<i>y</i> = 0<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"+c+"<i>x</i> +"+alambda+"<i>y</i> = 0" ;
