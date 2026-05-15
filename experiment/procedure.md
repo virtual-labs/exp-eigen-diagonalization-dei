@@ -1,5 +1,5 @@
-<span style="font-family: 'Times New Roman'; font-size: 22px;">1.	On the first page, in “Multiples of <i>x</i>∈<i>R</i><sup>2</sup>” section, click on “Visualization” button to see the geometry of multiples of elements of <i>R</i><sup>2</sup>. Related questions are given thereafter. Choose the answer from the dropdown for each question and click on “Submit” button to check the answer.<br>
-2.	In “<i>T</i>(<i>x</i>) ∈<i>R</i><sup>2</sup>” section, click on “Visualization” button to button to visualize the role of <i>T</i>. Related questions are given thereafter. Choose the answer from the dropdown for each question and click on “Submit” button to check the answer. <br>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">1.	On the first page, in “Multiples of <i>x</i>∈<i>R</i><sup>2</sup>” section, click on “Click here” button to see the geometry of multiples of elements of <i>R</i><sup>2</sup>. Related questions are given thereafter. Choose the answer from the dropdown for each question and click on “Submit” button to check the answer.<br>
+2.	In “<i>T</i>(<i>x</i>) ∈<i>R</i><sup>2</sup>” section, click on “Click here” button to button to visualize the role of <i>T</i>. Related questions are given thereafter. Choose the answer from the dropdown for each question and click on “Submit” button to check the answer. <br>
 3.	Repeat the same process for “Eigenvalue and Eigenvector” section.<br>
 4.	Click on the “Next” Button to go to the next page.<br>
 5.	Observe the transformation defined. <br>
