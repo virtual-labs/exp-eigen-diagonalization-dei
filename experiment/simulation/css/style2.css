@@ -1,3 +1,8 @@
+* {
+      margin: 0.6rem 0;
+      box-sizing: border-box;
+    }
+
 body{
     width: 100%;
     height: auto;
@@ -63,7 +68,7 @@ img {
     text-align: center;
     padding: 8px 16px;
     text-decoration: none;
-    width:5rem;
+   
 }
 .previous:hover {
   background-color: #ada;
@@ -98,12 +103,13 @@ label{
     .subbtn2{
         height:auto;
         width:auto;
-        background-color:#6bd7ea;
+        background-color:#81cdc6;
         font-size: 1.3rem;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 600;
         border: 1px solid teal;
         margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+        cursor: pointer;
         
     }
 
@@ -141,7 +147,7 @@ font-size: 1.3rem;
 
     .container {
         width: 95%;
-        margin: 0.5rem auto;
+        margin-top: 4.5rem;
     }
 
     .pagehead {
