@@ -17,9 +17,9 @@
 	<div class="container">
 
 	
-    	<p id="exmpp" ><i>T:R</i><sup>2</sup> &rarr; <i>R</i><sup>2</sup><br><i>T</i>(<i>x, y</i>) = (<i>y, x</i>), (<i>x, y</i>)&isin;<i>R</i><sup>2</sup></p>
+    	<p id="exmpp" ><i>T:R</i><sup>2</sup> &rarr; <i>R</i><sup>2</sup><br><i>T</i>(<i>x, y</i>) = (<i>y, x</i>); (<i>x, y</i>)&isin;<i>R</i><sup>2</sup></p>
 
-        <button class="subbtn" ><b>Eigen Values </b></button><br>
+        <button class="subbtn" ><b>Eigenvalues </b></button><br>
 		<ul  id="eval"><li>Eigenvalues of <i>T</i> are <select name="" id="valSelect0">
             
             <option value="a">--Select--</option>
@@ -32,7 +32,7 @@
 </ul>
        
 
-        <button class="subbtn"><b>Eigen Vectors </b></button><br>
+        <button class="subbtn"><b>Eigenvectors </b></button><br>
         <ul><li><b>Corresponding to eigenvalue 1</b></li>
             <ul>
             <li><p id="evector"><select name="" id="vectorSelect1">
@@ -64,7 +64,7 @@
             <option value="b">(1, -1)</option>
             <option value="c">(1, 1)</option>
             <option value="d">(-1, -1)</option>
-            <option value="e">(-1, 1)</option>
+            <option value="e">(-1, 2)</option>
         </select> is an eigenvector. <button class="subbtn3" type="submit" id="mulx"  onclick="p2que3()">Submit</button></li>
         <p id="p2result3"></p>
 
@@ -82,7 +82,11 @@
     </ul>
 		
 		<p style="background-color: yellowgreen; font-size: 28PX; text-align: center; border: 1px solid;">Visualization</p>
-		<img id="exmp1" src="images/visualimg1.PNG">
+<ul><p><b>Excersise:</b> Draw a diagram showing images of (1, 1), (1, 2) and (-1, 1) to determine which of these are eigenvectors, by visualization. <br><b>Answer:</b> <button class="subbtn3" type="submit" id="visualimg"  onclick="visualization()">Click here</button></p>
+
+</ul>
+        
+		<img id="exmp1" src="images/visualimg2.PNG">
             
 		
 		
