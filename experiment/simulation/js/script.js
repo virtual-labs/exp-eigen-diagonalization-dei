@@ -1,5 +1,6 @@
 function mulX2(){
     document.getElementById('multX').src='images/multX.png';
+    document.getElementById('note').style.visibility = 'visible';
 }
 function txfun(){
     document.getElementById('tximg').src='images/tx111.png';
@@ -238,4 +239,9 @@ else{
     result.style.color = "red";
     
   }}
+}
+
+function visualization() {
+  document.getElementById('exmp1').src='images/visualimg1.PNG';
+
 }
