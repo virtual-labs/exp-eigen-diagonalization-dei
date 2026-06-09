@@ -1,5 +1,5 @@
-<span style="font-family: 'Times New Roman'; font-size: 22px;">1.	On the first page, in “Multiples of <i>x</i>∈<i>R</i><sup>2</sup>” section, click on “Click here” button to see the geometry of multiples of elements of <i>R</i><sup>2</sup>. Related questions are given thereafter. Choose the answer from the dropdown for each question and click on “Submit” button to check the answer.<br>
-2.	In “<i>T</i>(<i>x</i>) ∈<i>R</i><sup>2</sup>” section, click on “Click here” button to button to visualize the role of <i>T</i>. Related questions are given thereafter. Choose the answer from the dropdown for each question and click on “Submit” button to check the answer. <br>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">1.	On the first page, in “Multiples of <i>x</i>∈<i>R</i><sup>2</sup>” section, click on “Visualization” button to understand the geometry of multiples of elements of <i>R</i><sup>2</sup>. Related questions are given thereafter. Choose the answer from the dropdown for each question and click on “Submit” button to check the answer.<br>
+2.	In “<i>T</i>(<i>x</i>) ∈<i>R</i><sup>2</sup>” section, click on “Visualization” button to visualize the role of <i>T</i>. Related questions are given thereafter. Choose the answer from the dropdown for each question and click on “Submit” button to check the answer. <br>
 3.	Repeat the same process for “Eigenvalue and Eigenvector” section.<br>
 4.	Click on the “Next” Button to go to the next page.<br>
 5.	Observe the transformation defined. <br>
@@ -8,5 +8,5 @@
 8.	“Visualization” section provides geometric interpretation of the transformation <i>T</i> and its eigenvalues and eigenvectors.<br>
 9.	Click on “Next” button to go to the next page.<br>
 10.	Enter the values of <i>a, c</i> and <i>d</i> to choose matrix <i>A</i> and click on “Submit” button to display the matrix <i>A</i>.<br>
-11.	Click on the “Eigenvalues” button to learn the working of eigenvalues through characteristic equation and its roots.<br>
-12.	Click on “Eigenvector” button to learn the working of eigenvectors through solutions of equations.</span>
+11.	Click on the “Eigenvalues” button to learn how to find eigenvalues through characteristic equation and its roots.<br>
+12.	Click on “Eigenvector” button to learn how to find eigenvectors through solutions of equations.</span>
